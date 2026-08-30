@@ -1,5 +1,13 @@
 const state = { manifest: [], cache: {}, recipe: null, stepIndex: 0 };
 
+function formatTime(min){
+  if(!min) return 'serve';
+  if(min < 60) return `${min} min`;
+  const h = Math.floor(min/60);
+  const m = min % 60;
+  return m ? `${h} h ${m} min` : `${h} h`;
+}
+
 async function loadManifest(){
   const res = await fetch('data/manifest.json');
   state.manifest = await res.json();
@@ -11,9 +19,9 @@ function renderLists(){
   const term = (document.getElementById('searchInput').value||'').toLowerCase();
   const filtered = state.manifest.filter(r=>r.title.toLowerCase().includes(term));
   const sideUl = document.getElementById('recipeList');
-  sideUl.innerHTML = filtered.map(r=>`<li><a href='#${r.id}' data-id='${r.id}'>${r.title}<span>${r.time} min</span></a></li>`).join('');
+  sideUl.innerHTML = filtered.map(r=>`<li><a href='#${r.id}' data-id='${r.id}'>${r.title}<span>${formatTime(r.time)}</span></a></li>`).join('');
   const homeUl = document.getElementById('homeList');
-  homeUl.innerHTML = state.manifest.map(r=>`<li><a href='#${r.id}'>${r.title}<span>${r.time} min</span></a></li>`).join('');
+  homeUl.innerHTML = state.manifest.map(r=>`<li><a href='#${r.id}'>${r.title}<span>${formatTime(r.time)}</span></a></li>`).join('');
 }
 
 async function loadRecipe(id){
@@ -51,7 +59,7 @@ function renderStep(){
   document.getElementById('stepText').textContent = step.instruction;
   const pill = document.getElementById('timePill');
   pill.hidden = false;
-  pill.textContent = step.time ? `${step.time} min` : 'serve';
+  pill.textContent = formatTime(step.time);
   document.getElementById('counter').textContent = `${i+1} / ${steps.length}`;
   const dots = document.getElementById('dots');
   dots.innerHTML = steps.map((_,idx)=>`<span class='dot ${idx===i?'active':''}'></span>`).join('');
