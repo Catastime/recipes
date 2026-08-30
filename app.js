@@ -1,4 +1,4 @@
-const state = { manifest: [], cache: {}, recipe: null, stepIndex: 0 };
+const state = { manifest: [], cache: {}, recipe: null, stepIndex: 0, viewMode: 'stage' };
 
 function formatTime(min){
   if(!min) return 'serve';
@@ -32,22 +32,45 @@ async function loadRecipe(id){
   }
   state.recipe = state.cache[id];
   state.stepIndex = 0;
-  showStage();
-  renderStep();
+  state.viewMode = 'stage';
+  showRecipe();
 }
 
 function goHome(){
   state.recipe = null;
+  state.viewMode = 'stage';
   document.getElementById('home').hidden = false;
   document.getElementById('stage').hidden = true;
+  document.getElementById('listView').hidden = true;
+  document.getElementById('homeBtn').hidden = true;
+  document.getElementById('viewToggle').hidden = true;
   document.getElementById('headerTitle').textContent = 'Recipes';
   document.getElementById('timePill').hidden = true;
 }
 
-function showStage(){
+function showRecipe(){
   document.getElementById('home').hidden = true;
-  document.getElementById('stage').hidden = false;
+  document.getElementById('homeBtn').hidden = false;
+  document.getElementById('viewToggle').hidden = false;
   document.getElementById('headerTitle').textContent = state.recipe.title;
+  setViewMode(state.viewMode);
+}
+
+function setViewMode(mode){
+  state.viewMode = mode;
+  document.getElementById('stage').hidden = mode !== 'stage';
+  document.getElementById('listView').hidden = mode !== 'list';
+  document.getElementById('timePill').hidden = mode !== 'stage';
+  const btn = document.getElementById('viewToggle');
+  if(mode === 'stage'){
+    btn.innerHTML = "<svg viewBox='0 0 24 24'><rect x='3' y='4' width='18' height='4' rx='1'/><rect x='3' y='10' width='18' height='4' rx='1'/><rect x='3' y='16' width='18' height='4' rx='1'/></svg>";
+    btn.setAttribute('aria-label','Show all steps');
+    renderStep();
+  } else {
+    btn.innerHTML = "<svg viewBox='0 0 24 24'><rect x='4' y='3' width='16' height='18' rx='2'/></svg>";
+    btn.setAttribute('aria-label','Show step by step');
+    renderListView();
+  }
 }
 
 function renderStep(){
@@ -63,6 +86,23 @@ function renderStep(){
   document.getElementById('counter').textContent = `${i+1} / ${steps.length}`;
   const dots = document.getElementById('dots');
   dots.innerHTML = steps.map((_,idx)=>`<span class='dot ${idx===i?'active':''}'></span>`).join('');
+}
+
+function renderListView(){
+  const steps = state.recipe.steps;
+  const ol = document.getElementById('listItems');
+  ol.innerHTML = steps.map((s,idx)=>`
+    <li>
+      <div class='list-icon'>${s.icon}</div>
+      <div class='list-body'>
+        <div class='list-head'>
+          <span class='list-num'>${idx+1}</span>
+          <h3>${s.title}</h3>
+          <span class='list-time'>${formatTime(s.time)}</span>
+        </div>
+        <p>${s.instruction}</p>
+      </div>
+    </li>`).join('');
 }
 
 function nextStep(){
@@ -92,6 +132,7 @@ function closeSidebar(){
   document.getElementById('sidebar').setAttribute('aria-hidden','true');
 }
 
+document.getElementById('homeBtn').addEventListener('click', ()=>{ location.hash = ''; });
 document.getElementById('menuBtn').addEventListener('click', openSidebar);
 document.getElementById('closeSidebar').addEventListener('click', closeSidebar);
 document.getElementById('scrim').addEventListener('click', closeSidebar);
@@ -99,13 +140,18 @@ document.getElementById('searchInput').addEventListener('input', renderLists);
 document.getElementById('recipeList').addEventListener('click', e=>{
   if(e.target.closest('a')) closeSidebar();
 });
+document.getElementById('viewToggle').addEventListener('click', ()=>{
+  setViewMode(state.viewMode === 'stage' ? 'list' : 'stage');
+});
 
 document.getElementById('zoneLeft').addEventListener('click', prevStep);
 document.getElementById('zoneRight').addEventListener('click', nextStep);
 
 window.addEventListener('keydown', e=>{
-  if(e.key==='ArrowRight') nextStep();
-  if(e.key==='ArrowLeft') prevStep();
+  if(state.viewMode === 'stage'){
+    if(e.key==='ArrowRight') nextStep();
+    if(e.key==='ArrowLeft') prevStep();
+  }
   if(e.key==='Escape') closeSidebar();
 });
 
