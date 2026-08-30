@@ -88,6 +88,13 @@ function renderStep(){
   dots.innerHTML = steps.map((_,idx)=>`<span class='dot ${idx===i?'active':''}'></span>`).join('');
 }
 
+function animateStep(direction){
+  const el = document.getElementById('stepView');
+  el.classList.remove('anim-next','anim-prev');
+  void el.offsetWidth;
+  el.classList.add(direction === 'next' ? 'anim-next' : 'anim-prev');
+}
+
 function renderListView(){
   const steps = state.recipe.steps;
   const ol = document.getElementById('listItems');
@@ -110,6 +117,7 @@ function nextStep(){
   if(state.stepIndex < state.recipe.steps.length -1){
     state.stepIndex++;
     renderStep();
+    animateStep('next');
   }
 }
 function prevStep(){
@@ -117,6 +125,7 @@ function prevStep(){
   if(state.stepIndex>0){
     state.stepIndex--;
     renderStep();
+    animateStep('prev');
   }
 }
 

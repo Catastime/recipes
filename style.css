@@ -139,6 +139,20 @@ body{
   color:var(--ink-soft);max-width:36ch;margin:0;
 }
 
+@keyframes stepInNext{
+  from{opacity:0;transform:translateX(16px);}
+  to{opacity:1;transform:translateX(0);}
+}
+@keyframes stepInPrev{
+  from{opacity:0;transform:translateX(-16px);}
+  to{opacity:1;transform:translateX(0);}
+}
+.step.anim-next{animation:stepInNext .2s ease;}
+.step.anim-prev{animation:stepInPrev .2s ease;}
+@media (prefers-reduced-motion:reduce){
+  .step.anim-next, .step.anim-prev{animation:none;}
+}
+
 .progress{
   position:absolute;left:0;right:0;bottom:0;height:60px;
   display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.4rem;
