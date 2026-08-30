@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1, viewport-fit=cover'>
+<title>Recipes</title>
+<meta name='description' content='Step-by-step recipes, one move at a time.'>
+<link rel='icon' href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='42' fill='%23C98A2C'/%3E%3C/svg%3E">
+<link rel='preconnect' href='https://fonts.googleapis.com'>
+<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+<link href='https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Karla:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap' rel='stylesheet'>
+<link rel='stylesheet' href='style.css'>
+</head>
+<body>
+<div id='scrim'></div>
+<aside id='sidebar' aria-hidden='true'>
+  <div class='sidebar-top'>
+    <input id='searchInput' type='search' placeholder='Search recipes…' aria-label='Search recipes'>
+    <button id='closeSidebar' aria-label='Close'>✕</button>
+  </div>
+  <ul id='recipeList'></ul>
+</aside>
+
+<header class='topbar'>
+  <button id='menuBtn' aria-label='Open recipe list'>
+    <svg viewBox='0 0 24 24'><line x1='3' y1='6' x2='21' y2='6'/><line x1='3' y1='12' x2='21' y2='12'/><line x1='3' y1='18' x2='21' y2='18'/></svg>
+  </button>
+  <h1 id='headerTitle'>Recipes</h1>
+  <div id='timePill' class='time-pill' hidden></div>
+</header>
+
+<main id='main'>
+  <section id='home'>
+    <p class='tagline'>Step by step, one move at a time.</p>
+    <ul id='homeList' class='home-list'></ul>
+  </section>
+
+  <section id='stage' hidden>
+    <button class='click-zone left' id='zoneLeft' aria-label='Previous step'></button>
+    <button class='click-zone right' id='zoneRight' aria-label='Next step'></button>
+    <div class='step' id='stepView'>
+      <div class='step-icon' id='stepIcon'></div>
+      <h2 class='step-title' id='stepTitle'></h2>
+      <p class='step-text' id='stepText'></p>
+    </div>
+    <footer class='progress'>
+      <div class='dots' id='dots'></div>
+      <div class='counter' id='counter'></div>
+    </footer>
+  </section>
+</main>
+
+<script src='app.js'></script>
+</body>
+</html>
