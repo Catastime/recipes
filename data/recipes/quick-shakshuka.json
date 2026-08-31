@@ -1,0 +1,38 @@
+{
+  "id": "quick-shakshuka",
+  "title": "Schnelles Shakshuka",
+  "time": 16,
+  "servings": "1 Portion, gut vervielfachbar",
+  "steps": [
+    {
+      "title": "Gemüse pürieren",
+      "time": 3,
+      "icon": "<svg viewBox='0 0 64 64'><path d='M18 20h28l-4 24a6 6 0 0 1-6 5H28a6 6 0 0 1-6-5z'/><path d='M32 8v14'/><circle cx='32' cy='6' r='2'/></svg>",
+      "instruction": "Geröstete eingelegte Paprika und Tomaten pürieren."
+    },
+    {
+      "title": "Aromen anschwitzen",
+      "time": 3,
+      "icon": "<svg viewBox='0 0 64 64'><ellipse cx='28' cy='34' rx='18' ry='8'/><path d='M46 30h12'/><path d='M20 14c2 4-2 6 0 10M28 12c2 4-2 6 0 10'/></svg>",
+      "instruction": "Eine Knoblauchzehe mit Meersalz zu einer Paste zerdrücken, eine halbe Zwiebel fein würfeln. Öl erhitzen, Knoblauch und Zwiebel darin 1 Minute unter Rühren garen."
+    },
+    {
+      "title": "Soße köcheln",
+      "time": 3,
+      "icon": "<svg viewBox='0 0 64 64'><ellipse cx='28' cy='34' rx='18' ry='8'/><path d='M46 30h12'/><path d='M20 14c2 4-2 6 0 10M28 12c2 4-2 6 0 10'/></svg>",
+      "instruction": "Harissa und Tomatenmark dazugeben und 1 Minute mitgaren. Das Paprika-Tomaten-Püree einrühren und abschmecken."
+    },
+    {
+      "title": "Eier garen",
+      "time": 6,
+      "icon": "<svg viewBox='0 0 64 64'><ellipse cx='32' cy='36' rx='22' ry='10'/><circle cx='32' cy='34' r='9'/><circle cx='32' cy='34' r='3'/></svg>",
+      "instruction": "Die Eier aufschlagen, in der Mitte der Pfanne Platz in der Soße schaffen und die Eier hineingeben. Bei mittlerer Hitze garen, bis das Eiweiß fest, das Eigelb aber noch weich ist. Salzen und pfeffern."
+    },
+    {
+      "title": "Servieren",
+      "time": 1,
+      "icon": "<svg viewBox='0 0 64 64'><circle cx='32' cy='36' r='20'/><path d='M32 16l14 20-14 8-14-8z'/></svg>",
+      "instruction": "Mit griechischem Joghurt toppen und sofort servieren. Fladenbrot passt gut dazu."
+    }
+  ]
+}

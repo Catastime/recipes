@@ -1,0 +1,38 @@
+{
+  "id": "applesauce",
+  "title": "Cremiges Apfelmus mit Karamell-Note",
+  "time": 68,
+  "servings": "ca. 6 Portionen",
+  "steps": [
+    {
+      "title": "Äpfel vorbereiten",
+      "time": 10,
+      "icon": "<svg viewBox='0 0 64 64'><path d='M32 24c-10 0-16 8-16 18s8 16 16 16 16-6 16-16-6-18-16-18z'/><path d='M32 24c0-6 4-8 8-8'/><path d='M46 14c3 2 3 5 0 7'/></svg>",
+      "instruction": "1 kg Äpfel waschen, schälen, vierteln und das Kerngehäuse entfernen."
+    },
+    {
+      "title": "Karamell herstellen",
+      "time": 5,
+      "icon": "<svg viewBox='0 0 64 64'><ellipse cx='28' cy='34' rx='18' ry='8'/><path d='M46 30h12'/><path d='M20 14c2 4-2 6 0 10M28 12c2 4-2 6 0 10'/></svg>",
+      "instruction": "1 EL Zucker in einem Topf bei mittlerer Hitze langsam goldbraun karamellisieren lassen."
+    },
+    {
+      "title": "Äpfel dünsten",
+      "time": 20,
+      "icon": "<svg viewBox='0 0 64 64'><path d='M12 26h40v18a8 8 0 0 1-8 8H20a8 8 0 0 1-8-8V26z'/><path d='M8 26h48'/><path d='M16 26v-6M48 26v-6'/><path d='M24 12c2 3-2 4 0 7M32 10c2 3-2 4 0 7M40 12c2 3-2 4 0 7'/></svg>",
+      "instruction": "Die Äpfel zum Karamell geben und umrühren, bis sich der Zucker vom Topfboden löst. 120 ml Apfelsaft angießen und bei geschlossenem Deckel 15 bis 20 Minuten köcheln, bis die Äpfel weich sind."
+    },
+    {
+      "title": "Pürieren",
+      "time": 3,
+      "icon": "<svg viewBox='0 0 64 64'><path d='M18 20h28l-4 24a6 6 0 0 1-6 5H28a6 6 0 0 1-6-5z'/><path d='M32 8v14'/><circle cx='32' cy='6' r='2'/></svg>",
+      "instruction": "Mit einem Stabmixer zu glattem Mus pürieren, oder mit einem Kartoffelstampfer gröber stampfen."
+    },
+    {
+      "title": "Würzen und abkühlen",
+      "time": 30,
+      "icon": "<svg viewBox='0 0 64 64'><path d='M20 10h24M20 54h24'/><path d='M22 10c0 10 8 12 10 14 2-2 10-4 10-14'/><path d='M22 54c0-10 8-12 10-14 2 2 10 4 10 14'/></svg>",
+      "instruction": "Mit einer halben Teelöffel Zimt und einem Esslöffel Zitronensaft abschmecken, bei Bedarf mit etwas Zucker nachsüßen. 30 Minuten abkühlen lassen."
+    }
+  ]
+}

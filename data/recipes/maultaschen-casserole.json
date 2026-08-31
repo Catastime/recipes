@@ -1,0 +1,26 @@
+{
+  "id": "maultaschen-casserole",
+  "title": "Maultaschen-Auflauf mit Spinat und Tomatensoße",
+  "time": 43,
+  "servings": "4 Portionen",
+  "steps": [
+    {
+      "title": "Tomatensoße kochen",
+      "time": 8,
+      "icon": "<svg viewBox='0 0 64 64'><ellipse cx='28' cy='34' rx='18' ry='8'/><path d='M46 30h12'/><path d='M20 14c2 4-2 6 0 10M28 12c2 4-2 6 0 10'/></svg>",
+      "instruction": "Eine Zwiebel und eine Knoblauchzehe würfeln und in Olivenöl andünsten. 400 g gehackte Tomaten und 100 ml Sahne dazugeben, mit Salz, Pfeffer und Oregano würzen und 3 Minuten köcheln lassen."
+    },
+    {
+      "title": "Schichten",
+      "time": 5,
+      "icon": "<svg viewBox='0 0 64 64'><rect x='10' y='24' width='44' height='22' rx='4'/><path d='M6 30h6M52 30h6'/><path d='M18 24c0-6 4-10 14-10s14 4 14 10'/></svg>",
+      "instruction": "Die Soße in eine Auflaufform geben. 2 Packungen vegetarische Gemüse-Maultaschen in 1,5 cm breite Streifen schneiden. Mini-Tomaten halbieren. Maultaschen, Blattspinat, Mini-Tomaten, Mini-Mozzarella und geriebenen Käse in der Soße verteilen."
+    },
+    {
+      "title": "Backen",
+      "time": 30,
+      "icon": "<svg viewBox='0 0 64 64'><rect x='10' y='12' width='44' height='40' rx='3'/><path d='M10 24h44'/><path d='M22 38h20l-2 10a4 4 0 0 1-4 4h-8a4 4 0 0 1-4-4z'/></svg>",
+      "instruction": "Bei 200 Grad C Ober-/Unterhitze 30 Minuten backen."
+    }
+  ]
+}

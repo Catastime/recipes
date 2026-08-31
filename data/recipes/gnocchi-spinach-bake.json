@@ -1,0 +1,32 @@
+{
+  "id": "gnocchi-spinach-bake",
+  "title": "Gnocchi-Spinat-Auflauf",
+  "time": 45,
+  "servings": "4 Portionen",
+  "steps": [
+    {
+      "title": "Soße anrösten",
+      "time": 5,
+      "icon": "<svg viewBox='0 0 64 64'><ellipse cx='28' cy='34' rx='18' ry='8'/><path d='M46 30h12'/><path d='M20 14c2 4-2 6 0 10M28 12c2 4-2 6 0 10'/></svg>",
+      "instruction": "Eine Zwiebel und eine Knoblauchzehe würfeln und in einem Esslöffel Butter andünsten."
+    },
+    {
+      "title": "Soße binden",
+      "time": 5,
+      "icon": "<svg viewBox='0 0 64 64'><path d='M12 30h40a20 14 0 0 1-40 0z'/><path d='M10 30h44'/></svg>",
+      "instruction": "1,5 EL Mehl und 3 EL Tomatenmark einrühren. Unter Rühren 250 ml Milch, 100 ml Sahne und 100 ml Wasser angießen, bis die Soße cremig ist. Mit Paprikapulver, Salz und Pfeffer würzen."
+    },
+    {
+      "title": "Schichten",
+      "time": 5,
+      "icon": "<svg viewBox='0 0 64 64'><rect x='10' y='24' width='44' height='22' rx='4'/><path d='M6 30h6M52 30h6'/><path d='M18 24c0-6 4-10 14-10s14 4 14 10'/></svg>",
+      "instruction": "500 g Gnocchi, die Soße, 200 g Blattspinat und 100 g Mini-Tomaten nacheinander in eine Auflaufform schichten. Mit 150 g geriebenem Käse bestreuen."
+    },
+    {
+      "title": "Backen",
+      "time": 30,
+      "icon": "<svg viewBox='0 0 64 64'><rect x='10' y='12' width='44' height='40' rx='3'/><path d='M10 24h44'/><path d='M22 38h20l-2 10a4 4 0 0 1-4 4h-8a4 4 0 0 1-4-4z'/></svg>",
+      "instruction": "Bei 220 Grad C Ober-/Unterhitze 30 Minuten backen."
+    }
+  ]
+}

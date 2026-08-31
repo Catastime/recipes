@@ -22,5 +22,83 @@
     "title": "Apfeltarte",
     "time": 264,
     "icon": "<svg viewBox='0 0 64 64'><circle cx='32' cy='32' r='22'/><circle cx='32' cy='32' r='14'/><circle cx='32' cy='32' r='6'/></svg>"
+  },
+  {
+    "id": "olive-tapenade",
+    "title": "Oliven-Aufstrich",
+    "time": 10,
+    "icon": "<svg viewBox='0 0 64 64'><path d='M18 20h28l-4 24a6 6 0 0 1-6 5H28a6 6 0 0 1-6-5z'/><path d='M32 8v14'/><circle cx='32' cy='6' r='2'/></svg>"
+  },
+  {
+    "id": "smoked-tofu-rice-bowl",
+    "title": "Geräucherter Tofu mit Reis, Brokkoli und Gurke",
+    "time": 35,
+    "icon": "<svg viewBox='0 0 64 64'><path d='M10 32h44a22 12 0 0 1-44 0z'/><path d='M8 32h48'/><path d='M20 32c2-6 6-6 8 0s6 6 8 0 6-6 8 0'/></svg>"
+  },
+  {
+    "id": "maultaschen-casserole",
+    "title": "Maultaschen-Auflauf mit Spinat und Tomatensoße",
+    "time": 43,
+    "icon": "<svg viewBox='0 0 64 64'><rect x='10' y='24' width='44' height='22' rx='4'/><path d='M6 30h6M52 30h6'/><path d='M18 24c0-6 4-10 14-10s14 4 14 10'/></svg>"
+  },
+  {
+    "id": "peach-chutney-burrata-bread",
+    "title": "Pfirsich-Chutney mit Burrata-Tomaten-Brot",
+    "time": 46,
+    "icon": "<svg viewBox='0 0 64 64'><rect x='18' y='24' width='28' height='28' rx='3'/><rect x='22' y='14' width='20' height='10' rx='2'/></svg>"
+  },
+  {
+    "id": "applesauce",
+    "title": "Cremiges Apfelmus mit Karamell-Note",
+    "time": 68,
+    "icon": "<svg viewBox='0 0 64 64'><path d='M32 24c-10 0-16 8-16 18s8 16 16 16 16-6 16-16-6-18-16-18z'/><path d='M32 24c0-6 4-8 8-8'/><path d='M46 14c3 2 3 5 0 7'/></svg>"
+  },
+  {
+    "id": "cheese-leek-pasta-bake",
+    "title": "Käse-Lauch-Nudelauflauf",
+    "time": 35,
+    "icon": "<svg viewBox='0 0 64 64'><rect x='10' y='24' width='44' height='22' rx='4'/><path d='M6 30h6M52 30h6'/><path d='M18 24c0-6 4-10 14-10s14 4 14 10'/></svg>"
+  },
+  {
+    "id": "gnocchi-spinach-bake",
+    "title": "Gnocchi-Spinat-Auflauf",
+    "time": 45,
+    "icon": "<svg viewBox='0 0 64 64'><rect x='10' y='24' width='44' height='22' rx='4'/><path d='M6 30h6M52 30h6'/><path d='M18 24c0-6 4-10 14-10s14 4 14 10'/></svg>"
+  },
+  {
+    "id": "brussels-sprout-fettuccine",
+    "title": "Cremige Rosenkohl-Fettuccine",
+    "time": 25,
+    "icon": "<svg viewBox='0 0 64 64'><path d='M14 46c0-18 14-30 32-30-2 18-14 30-32 30z'/><path d='M18 44c10-8 16-16 24-24'/></svg>"
+  },
+  {
+    "id": "caramelized-baked-apple",
+    "title": "Karamellisierter Bratapfel",
+    "time": 75,
+    "icon": "<svg viewBox='0 0 64 64'><path d='M32 24c-10 0-16 8-16 18s8 16 16 16 16-6 16-16-6-18-16-18z'/><path d='M32 24c0-6 4-8 8-8'/><path d='M46 14c3 2 3 5 0 7'/></svg>"
+  },
+  {
+    "id": "quick-shakshuka",
+    "title": "Schnelles Shakshuka",
+    "time": 16,
+    "icon": "<svg viewBox='0 0 64 64'><ellipse cx='32' cy='36' rx='22' ry='10'/><circle cx='32' cy='34' r='9'/><circle cx='32' cy='34' r='3'/></svg>"
+  },
+  {
+    "id": "green-goddess-pasta",
+    "title": "Green Goddess Pasta",
+    "time": 25,
+    "icon": "<svg viewBox='0 0 64 64'><path d='M14 46c0-18 14-30 32-30-2 18-14 30-32 30z'/><path d='M18 44c10-8 16-16 24-24'/></svg>"
+  },
+  {
+    "id": "mediterranean-arugula-pasta-salad",
+    "title": "Mediterraner Nudelsalat mit Rucola",
+    "time": 30,
+    "icon": "<svg viewBox='0 0 64 64'><path d='M14 46c0-18 14-30 32-30-2 18-14 30-32 30z'/><path d='M18 44c10-8 16-16 24-24'/></svg>"
+  },
+  {
+    "id": "sesame-udon-broccoli-tofu",
+    "title": "One-Pan Sesam-Udon mit Brokkoli und Tofu",
+    "time": 38,
+    "icon": "<svg viewBox='0 0 64 64'><path d='M10 32h44a22 12 0 0 1-44 0z'/><path d='M8 32h48'/><path d='M20 32c2-6 6-6 8 0s6 6 8 0 6-6 8 0'/></svg>"
   }
 ]

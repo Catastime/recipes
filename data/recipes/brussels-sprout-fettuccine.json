@@ -1,0 +1,38 @@
+{
+  "id": "brussels-sprout-fettuccine",
+  "title": "Cremige Rosenkohl-Fettuccine",
+  "time": 25,
+  "servings": "4 Portionen",
+  "steps": [
+    {
+      "title": "Vorbereiten",
+      "time": 8,
+      "icon": "<svg viewBox='0 0 64 64'><path d='M14 46c0-18 14-30 32-30-2 18-14 30-32 30z'/><path d='M18 44c10-8 16-16 24-24'/></svg>",
+      "instruction": "250 g Rosenkohl putzen und halbieren, abfallende Blätter aufheben. 2 Knoblauchzehen fein hacken, die Schale einer Zitrone abreiben, 2 Zweige Petersilie grob hacken."
+    },
+    {
+      "title": "Sahnesoße",
+      "time": 8,
+      "icon": "<svg viewBox='0 0 64 64'><ellipse cx='28' cy='34' rx='18' ry='8'/><path d='M46 30h12'/><path d='M20 14c2 4-2 6 0 10M28 12c2 4-2 6 0 10'/></svg>",
+      "instruction": "500 g Fettuccine nach Packungsanleitung kochen. Währenddessen die Hälfte von 20 g Butter erhitzen, den Knoblauch kurz anbraten und mit 250 ml Sahne ablöschen. Mit Salz und Pfeffer abschmecken, beiseitestellen."
+    },
+    {
+      "title": "Rosenkohl anbraten",
+      "time": 3,
+      "icon": "<svg viewBox='0 0 64 64'><ellipse cx='28' cy='34' rx='18' ry='8'/><path d='M46 30h12'/><path d='M20 14c2 4-2 6 0 10M28 12c2 4-2 6 0 10'/></svg>",
+      "instruction": "In einer Pfanne die restliche Butter schmelzen und den Rosenkohl samt Blättern darin 3 Minuten scharf anbraten."
+    },
+    {
+      "title": "Vereinen",
+      "time": 3,
+      "icon": "<svg viewBox='0 0 64 64'><path d='M10 32h44a22 12 0 0 1-44 0z'/><path d='M8 32h48'/><path d='M20 32c2-6 6-6 8 0s6 6 8 0 6-6 8 0'/></svg>",
+      "instruction": "Die Nudeln abtropfen und zur Soße geben. Zitronenschale und 2 EL Kapern anstelle der Sardellen einrühren, dazu ein Spritzer Sojasauce für die Würze. Den knusprigen Rosenkohl unterrühren."
+    },
+    {
+      "title": "Servieren",
+      "time": 3,
+      "icon": "<svg viewBox='0 0 64 64'><path d='M8 46l20-30 28 12-4 18z'/><circle cx='24' cy='34' r='1.6'/><circle cx='34' cy='40' r='1.6'/></svg>",
+      "instruction": "Auf Teller verteilen und mit Petersilie und 30 g Parmesan garnieren."
+    }
+  ]
+}

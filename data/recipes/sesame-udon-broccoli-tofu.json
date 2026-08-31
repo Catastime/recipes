@@ -1,0 +1,50 @@
+{
+  "id": "sesame-udon-broccoli-tofu",
+  "title": "One-Pan Sesam-Udon mit Brokkoli und Tofu",
+  "time": 38,
+  "servings": "2 Portionen",
+  "steps": [
+    {
+      "title": "Tofu pressen und würfeln",
+      "time": 10,
+      "icon": "<svg viewBox='0 0 64 64'><path d='M12 30h40a20 14 0 0 1-40 0z'/><path d='M10 30h44'/></svg>",
+      "instruction": "250 g festen Tofu kurz auspressen und in 2 cm große Würfel schneiden."
+    },
+    {
+      "title": "Sauce anrühren",
+      "time": 5,
+      "icon": "<svg viewBox='0 0 64 64'><path d='M18 20h28l-4 24a6 6 0 0 1-6 5H28a6 6 0 0 1-6-5z'/><path d='M32 8v14'/><circle cx='32' cy='6' r='2'/></svg>",
+      "instruction": "3 EL Sojasauce, 2 EL Ahornsirup, 1 EL Reisweinessig, 1 TL Sesamöl und je nach Schärfe etwas Chiliöl oder gehackte Chili in einer Schüssel verrühren."
+    },
+    {
+      "title": "Tofu anbraten",
+      "time": 8,
+      "icon": "<svg viewBox='0 0 64 64'><ellipse cx='28' cy='34' rx='18' ry='8'/><path d='M46 30h12'/><path d='M20 14c2 4-2 6 0 10M28 12c2 4-2 6 0 10'/></svg>",
+      "instruction": "Etwas Öl in einem Topf mit hohem Rand erhitzen und den Tofu darin von allen Seiten knusprig goldbraun braten. Herausnehmen und beiseitestellen."
+    },
+    {
+      "title": "Brokkoli und Aromen",
+      "time": 5,
+      "icon": "<svg viewBox='0 0 64 64'><circle cx='24' cy='22' r='9'/><circle cx='38' cy='18' r='8'/><circle cx='42' cy='30' r='8'/><path d='M32 34v18M32 34l-6 8M32 34l6 8'/></svg>",
+      "instruction": "250 g Brokkoliröschen, eine gehackte Knoblauchzehe und etwas frischer Ingwer im selben Topf 3 bis 4 Minuten anbraten, bis der Brokkoli leuchtend grün ist."
+    },
+    {
+      "title": "Udon und Sauce zugeben",
+      "time": 6,
+      "icon": "<svg viewBox='0 0 64 64'><path d='M10 32h44a22 12 0 0 1-44 0z'/><path d='M8 32h48'/><path d='M20 32c2-6 6-6 8 0s6 6 8 0 6-6 8 0'/></svg>",
+      "instruction": "400 g Udon-Nudeln und die Sauce dazugeben. Bei Bedarf einen Schuss Wasser angießen und alles 2 bis 3 Minuten unter Rühren glasieren, bis die Nudeln gut überzogen sind."
+    },
+    {
+      "title": "Tofu zurückgeben",
+      "time": 3,
+      "icon": "<svg viewBox='0 0 64 64'><ellipse cx='28' cy='34' rx='18' ry='8'/><path d='M46 30h12'/><path d='M20 14c2 4-2 6 0 10M28 12c2 4-2 6 0 10'/></svg>",
+      "instruction": "Den Tofu zurück in den Topf geben, kurz durchschwenken und mit 1 EL Sesam und Frühlingszwiebelringen bestreuen."
+    },
+    {
+      "title": "Servieren",
+      "time": 1,
+      "icon": "<svg viewBox='0 0 64 64'><circle cx='32' cy='36' r='20'/><path d='M32 16l14 20-14 8-14-8z'/></svg>",
+      "instruction": "Direkt aus dem Topf oder in Schalen servieren, nach Belieben mit extra Chiliöl beträufeln."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "green-goddess-pasta",
+  "title": "Green Goddess Pasta",
+  "time": 25,
+  "servings": "4 Portionen",
+  "steps": [
+    {
+      "title": "Gemüse dünsten",
+      "time": 5,
+      "icon": "<svg viewBox='0 0 64 64'><circle cx='24' cy='22' r='9'/><circle cx='38' cy='18' r='8'/><circle cx='42' cy='30' r='8'/><path d='M32 34v18M32 34l-6 8M32 34l6 8'/></svg>",
+      "instruction": "200 g Brokkoli in Röschen schneiden und mit 200 g Blattspinat und einer Knoblauchzehe in Öl etwa 5 Minuten dünsten, dann vom Herd nehmen."
+    },
+    {
+      "title": "Zitrone und Kräuter",
+      "time": 3,
+      "icon": "<svg viewBox='0 0 64 64'><ellipse cx='32' cy='32' rx='20' ry='16'/><path d='M14 24c-4 0-6 4-4 8M50 40c4 0 6-4 4-8'/></svg>",
+      "instruction": "Eine Bio-Zitrone heiß abspülen, die Hälfte der Schale abreiben, dann die ganze Zitrone auspressen. Mit frischer Petersilie zum Gemüse geben."
+    },
+    {
+      "title": "Sauce mixen",
+      "time": 5,
+      "icon": "<svg viewBox='0 0 64 64'><path d='M18 20h28l-4 24a6 6 0 0 1-6 5H28a6 6 0 0 1-6-5z'/><path d='M32 8v14'/><circle cx='32' cy='6' r='2'/></svg>",
+      "instruction": "3 EL Tahini, das Gemüse und 100 ml Gemüsebouillon mixen, bis eine cremige Sauce entsteht. Mit Salz und Pfeffer abschmecken."
+    },
+    {
+      "title": "Pasta kochen",
+      "time": 10,
+      "icon": "<svg viewBox='0 0 64 64'><path d='M12 26h40v18a8 8 0 0 1-8 8H20a8 8 0 0 1-8-8V26z'/><path d='M8 26h48'/><path d='M16 26v-6M48 26v-6'/><path d='M24 12c2 3-2 4 0 7M32 10c2 3-2 4 0 7M40 12c2 3-2 4 0 7'/></svg>",
+      "instruction": "350 g Pasta in Salzwasser bissfest kochen, 5 Minuten vor Ende der Kochzeit 150 g Erbsen dazugeben."
+    },
+    {
+      "title": "Vereinen",
+      "time": 2,
+      "icon": "<svg viewBox='0 0 64 64'><path d='M10 32h44a22 12 0 0 1-44 0z'/><path d='M8 32h48'/><path d='M20 32c2-6 6-6 8 0s6 6 8 0 6-6 8 0'/></svg>",
+      "instruction": "Pasta und Erbsen abgießen und mit der grünen Sauce vermischen. Servieren."
+    }
+  ]
+}

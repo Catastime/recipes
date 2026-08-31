@@ -1,0 +1,20 @@
+{
+  "id": "olive-tapenade",
+  "title": "Oliven-Aufstrich",
+  "time": 10,
+  "servings": "ca. 300 g",
+  "steps": [
+    {
+      "title": "Walnüsse rösten",
+      "time": 3,
+      "icon": "<svg viewBox='0 0 64 64'><path d='M32 14c10 0 16 10 16 20s-8 16-16 16-16-8-16-16 6-20 16-20z'/><path d='M32 14v6M24 22c4-2 12-2 16 0'/></svg>",
+      "instruction": "50 g Walnüsse in einer Pfanne ohne Öl goldbraun rösten."
+    },
+    {
+      "title": "Alles pürieren",
+      "time": 7,
+      "icon": "<svg viewBox='0 0 64 64'><path d='M18 20h28l-4 24a6 6 0 0 1-6 5H28a6 6 0 0 1-6-5z'/><path d='M32 8v14'/><circle cx='32' cy='6' r='2'/></svg>",
+      "instruction": "Petersilienblätter abzupfen. 200 g schwarze Oliven und 50 g Kapern abtropfen lassen. Mit den Walnüssen, einer Knoblauchzehe und Olivenöl in einen hohen Mixbecher geben und mit einem Pürierstab fein pürieren. Mit Salz und Pfeffer abschmecken."
+    }
+  ]
+}

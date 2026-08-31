@@ -1,0 +1,32 @@
+{
+  "id": "smoked-tofu-rice-bowl",
+  "title": "Geräucherter Tofu mit Reis, Brokkoli und Gurke",
+  "time": 35,
+  "servings": "2 Portionen",
+  "steps": [
+    {
+      "title": "Gurken einlegen",
+      "time": 5,
+      "icon": "<svg viewBox='0 0 64 64'><circle cx='32' cy='32' r='20'/><circle cx='32' cy='32' r='13'/><circle cx='26' cy='28' r='1.4'/><circle cx='34' cy='26' r='1.4'/><circle cx='30' cy='36' r='1.4'/><circle cx='38' cy='34' r='1.4'/></svg>",
+      "instruction": "Sesamsamen in einer Pfanne fettfrei rösten. 4 kleine Salatgurken in 1 cm dicke Stücke schneiden und mit geröstetem Sesamöl, Reisessig, Sojasauce und gehackter Chili vermischen. In den Kühlschrank stellen."
+    },
+    {
+      "title": "Reis und Brokkoli garen",
+      "time": 20,
+      "icon": "<svg viewBox='0 0 64 64'><path d='M12 26h40v18a8 8 0 0 1-8 8H20a8 8 0 0 1-8-8V26z'/><path d='M8 26h48'/><path d='M16 26v-6M48 26v-6'/><path d='M24 12c2 3-2 4 0 7M32 10c2 3-2 4 0 7M40 12c2 3-2 4 0 7'/></svg>",
+      "instruction": "100 g Basmatireis nach Packungsangabe kochen. 100 g Brokkoli in kleine Röschen teilen und 5 Minuten dämpfen."
+    },
+    {
+      "title": "Tofu braten",
+      "time": 8,
+      "icon": "<svg viewBox='0 0 64 64'><ellipse cx='28' cy='34' rx='18' ry='8'/><path d='M46 30h12'/><path d='M20 14c2 4-2 6 0 10M28 12c2 4-2 6 0 10'/></svg>",
+      "instruction": "180 g Räuchertofu in 4 Stücke schneiden und in Olivenöl goldbraun anbraten. Teriyaki-BBQ-Sauce mit Honig dazugeben und weitere 2 bis 3 Minuten braten."
+    },
+    {
+      "title": "Anrichten",
+      "time": 2,
+      "icon": "<svg viewBox='0 0 64 64'><circle cx='34' cy='34' r='18'/><circle cx='34' cy='34' r='10'/><path d='M12 14v14M12 14c-2 0-2 4 0 4M16 14v14M16 14c2 0 2 4 0 4M14 28v20'/></svg>",
+      "instruction": "Tofu auf den Reis geben, mit Brokkoli und den Gurken servieren. Mit Schnittlauch und schwarzem Pfeffer bestreuen."
+    }
+  ]
+}

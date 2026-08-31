@@ -1,0 +1,44 @@
+{
+  "id": "peach-chutney-burrata-bread",
+  "title": "Pfirsich-Chutney mit Burrata-Tomaten-Brot",
+  "time": 46,
+  "servings": "3 Gläser Chutney, 4 Brote",
+  "steps": [
+    {
+      "title": "Pfirsiche vorbereiten",
+      "time": 8,
+      "icon": "<svg viewBox='0 0 64 64'><path d='M32 24c-10 0-16 8-16 18s8 16 16 16 16-6 16-16-6-18-16-18z'/><path d='M32 24c0-6 4-8 8-8'/><path d='M46 14c3 2 3 5 0 7'/></svg>",
+      "instruction": "3 bis 4 reife Pfirsiche kreuzweise einschneiden, 30 Sekunden in kochendem Wasser blanchieren, häuten und entsteinen. Fruchtfleisch in 1 cm große Würfel schneiden, insgesamt etwa 300 g."
+    },
+    {
+      "title": "Chutney kochen",
+      "time": 10,
+      "icon": "<svg viewBox='0 0 64 64'><path d='M12 26h40v18a8 8 0 0 1-8 8H20a8 8 0 0 1-8-8V26z'/><path d='M8 26h48'/><path d='M16 26v-6M48 26v-6'/><path d='M24 12c2 3-2 4 0 7M32 10c2 3-2 4 0 7M40 12c2 3-2 4 0 7'/></svg>",
+      "instruction": "2 gewürfelte Schalotten, Knoblauch, Ingwer und zerstoßene Koriandersamen in Öl kurz scharf anbraten. Pfirsiche und gehackte getrocknete Aprikosen zugeben, mit Wasser und Apfelessig ablöschen. Gelierzucker einrühren, aufkochen und 4 Minuten sprudelnd köcheln lassen. Mit Salz und Pfeffer abschmecken."
+    },
+    {
+      "title": "Chutney einfüllen",
+      "time": 5,
+      "icon": "<svg viewBox='0 0 64 64'><rect x='18' y='24' width='28' height='28' rx='3'/><rect x='22' y='14' width='20' height='10' rx='2'/></svg>",
+      "instruction": "Das heiße Chutney bis kurz unter den Rand in zuvor sterilisierte Gläser füllen, direkt verschließen und auskühlen lassen."
+    },
+    {
+      "title": "Ofentomaten backen",
+      "time": 15,
+      "icon": "<svg viewBox='0 0 64 64'><path d='M14 40c0-10 8-18 18-18s18 8 18 18a4 4 0 0 1-4 4H18a4 4 0 0 1-4-4z'/><path d='M20 22c1-3-1-4 0-7M32 18c1-3-1-4 0-7M44 22c1-3-1-4 0-7'/><path d='M14 44h36'/></svg>",
+      "instruction": "500 g Cocktailtomaten halbieren, mit Knoblauchscheiben, Olivenöl, Salz, Pfeffer und frischen Kräutern vermengen und bei 220 Grad C etwa 15 Minuten backen."
+    },
+    {
+      "title": "Brot rösten",
+      "time": 5,
+      "icon": "<svg viewBox='0 0 64 64'><path d='M12 50V26a20 16 0 0 1 40 0v24z'/><path d='M12 50h40'/></svg>",
+      "instruction": "4 Brotscheiben großzügig mit Olivenöl beträufeln und in einer Pfanne goldbraun und kross rösten."
+    },
+    {
+      "title": "Anrichten",
+      "time": 3,
+      "icon": "<svg viewBox='0 0 64 64'><path d='M8 46l20-30 28 12-4 18z'/><circle cx='24' cy='34' r='1.6'/><circle cx='34' cy='40' r='1.6'/></svg>",
+      "instruction": "2 Kugeln Burrata abtropfen lassen, je eine halbe Kugel auf einer Brotscheibe verstreichen. Mit Chutney und Ofentomaten belegen, mit Basilikum und Pfeffer garnieren."
+    }
+  ]
+}

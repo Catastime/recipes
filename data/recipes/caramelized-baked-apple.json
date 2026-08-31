@@ -1,0 +1,44 @@
+{
+  "id": "caramelized-baked-apple",
+  "title": "Karamellisierter Bratapfel",
+  "time": 75,
+  "servings": "4 Portionen",
+  "steps": [
+    {
+      "title": "Äpfel vorbereiten",
+      "time": 10,
+      "icon": "<svg viewBox='0 0 64 64'><path d='M32 24c-10 0-16 8-16 18s8 16 16 16 16-6 16-16-6-18-16-18z'/><path d='M32 24c0-6 4-8 8-8'/><path d='M46 14c3 2 3 5 0 7'/></svg>",
+      "instruction": "Ofen auf 200 Grad C Umluft vorheizen. 4 rote Äpfel halbieren und dünn einschneiden, ohne ganz durchzuschneiden. Auf ein mit Backpapier ausgelegtes Blech legen."
+    },
+    {
+      "title": "Sirup kochen",
+      "time": 5,
+      "icon": "<svg viewBox='0 0 64 64'><ellipse cx='28' cy='34' rx='18' ry='8'/><path d='M46 30h12'/><path d='M20 14c2 4-2 6 0 10M28 12c2 4-2 6 0 10'/></svg>",
+      "instruction": "15 g Butter in einem Topf schmelzen und mit Wasser, braunem Zucker, Zimt, Kardamom und Sternanis verrühren, bis sich der Zucker auflöst."
+    },
+    {
+      "title": "Äpfel backen",
+      "time": 35,
+      "icon": "<svg viewBox='0 0 64 64'><path d='M14 40c0-10 8-18 18-18s18 8 18 18a4 4 0 0 1-4 4H18a4 4 0 0 1-4-4z'/><path d='M20 22c1-3-1-4 0-7M32 18c1-3-1-4 0-7M44 22c1-3-1-4 0-7'/><path d='M14 44h36'/></svg>",
+      "instruction": "Die Äpfel mit dem Sirup bestreichen und 35 Minuten backen, dabei etwa alle 10 Minuten mit dem restlichen Sirup beträufeln."
+    },
+    {
+      "title": "Crumble mischen",
+      "time": 5,
+      "icon": "<svg viewBox='0 0 64 64'><path d='M12 30h40a20 14 0 0 1-40 0z'/><path d='M10 30h44'/></svg>",
+      "instruction": "80 g grob gehackte Haselnüsse mit 100 g Dinkelmehl, Zucker, Ingwer, Zimt und 40 g weicher Butter zu Krümeln verkneten."
+    },
+    {
+      "title": "Zusammen backen",
+      "time": 18,
+      "icon": "<svg viewBox='0 0 64 64'><path d='M14 40c0-10 8-18 18-18s18 8 18 18a4 4 0 0 1-4 4H18a4 4 0 0 1-4-4z'/><path d='M20 22c1-3-1-4 0-7M32 18c1-3-1-4 0-7M44 22c1-3-1-4 0-7'/><path d='M14 44h36'/></svg>",
+      "instruction": "Den Crumble auf ein Blech geben und für 15 bis 20 Minuten zu den Äpfeln in den Ofen geben."
+    },
+    {
+      "title": "Servieren",
+      "time": 2,
+      "icon": "<svg viewBox='0 0 64 64'><circle cx='32' cy='36' r='20'/><path d='M32 16l14 20-14 8-14-8z'/></svg>",
+      "instruction": "Äpfel und Crumble auf Teller verteilen, mit dem restlichen Sirup beträufeln und mit einer Kugel Vanilleeis servieren."
+    }
+  ]
+}
