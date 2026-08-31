@@ -32,7 +32,7 @@
       "title": "Bake covered",
       "time": 45,
       "icon": "<svg viewBox='0 0 64 64'><rect x='10' y='12' width='44' height='40' rx='3'/><path d='M10 24h44'/><path d='M22 38h20l-2 10a4 4 0 0 1-4 4h-8a4 4 0 0 1-4-4z'/></svg>",
-      "instruction": "Add the dough to the pot and bake at 230 degrees C on the lowest oven rack for 45 minutes."
+      "instruction": "Add the dough to the pot and bake at 230 degrees C on the lowest oven rack for 45 minutes. Importantly, the pot is going into a cold oven and warming up together with the oven."
     },
     {
       "title": "Bake uncovered",
