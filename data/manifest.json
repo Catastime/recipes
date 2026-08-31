@@ -1,5 +1,20 @@
 [
-  { "id": "pour-over-coffee", "title": "Pour-Over Coffee", "time": 9 },
-  { "id": "garlic-pasta", "title": "Weeknight Garlic Pasta", "time": 25 },
-  { "id": "sourdough-bread", "title": "Sourdough in a Roman Pot", "time": 1578 }
+  {
+    "id": "pour-over-coffee",
+    "title": "Pour-Over Coffee",
+    "time": 9,
+    "icon": "<svg viewBox='0 0 64 64'><path d='M14 26h28v16a10 10 0 0 1-10 10H24a10 10 0 0 1-10-10V26z'/><path d='M42 30h6a6 6 0 0 1 0 12h-6'/><path d='M24 12c2 3 -2 4 0 7M32 12c2 3-2 4 0 7'/></svg>"
+  },
+  {
+    "id": "garlic-pasta",
+    "title": "Weeknight Garlic Pasta",
+    "time": 25,
+    "icon": "<svg viewBox='0 0 64 64'><path d='M10 30h44a22 12 0 0 1-44 0z'/><path d='M8 30h48'/><path d='M20 30c2-6 6-6 8 0s6 6 8 0 6-6 8 0'/></svg>"
+  },
+  {
+    "id": "sourdough-bread",
+    "title": "Sourdough in a Roman Pot",
+    "time": 1578,
+    "icon": "<svg viewBox='0 0 64 64'><path d='M14 40c0-10 8-18 18-18s18 8 18 18a4 4 0 0 1-4 4H18a4 4 0 0 1-4-4z'/><path d='M20 22c1-3-1-4 0-7M32 18c1-3-1-4 0-7M44 22c1-3-1-4 0-7'/><path d='M14 44h36'/></svg>"
+  }
 ]

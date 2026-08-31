@@ -21,7 +21,16 @@ function renderLists(){
   const sideUl = document.getElementById('recipeList');
   sideUl.innerHTML = filtered.map(r=>`<li><a href='#${r.id}' data-id='${r.id}'>${r.title}<span>${formatTime(r.time)}</span></a></li>`).join('');
   const homeUl = document.getElementById('homeList');
-  homeUl.innerHTML = state.manifest.map(r=>`<li><a href='#${r.id}'>${r.title}<span>${formatTime(r.time)}</span></a></li>`).join('');
+  homeUl.innerHTML = state.manifest.map(r=>`
+    <li>
+      <a href='#${r.id}'>
+        <div class='home-icon'>${r.icon || ''}</div>
+        <div class='home-info'>
+          <span class='home-title'>${r.title}</span>
+          <span class='home-time'>${formatTime(r.time)}</span>
+        </div>
+      </a>
+    </li>`).join('');
 }
 
 async function loadRecipe(id){
