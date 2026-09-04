@@ -1,0 +1,44 @@
+{
+  "id": "tofu-brokkoli-pfanne-cashewkerne",
+  "title": "Tofu-Brokkoli-Pfanne mit Cashewkernen",
+  "time": 30,
+  "servings": "Für 2 Portionen",
+  "steps": [
+    {
+      "title": "Nudeln und Cashews vorbereiten",
+      "time": 10,
+      "icon": "<svg viewBox='0 0 64 64'><path d='M10 32h44a22 12 0 0 1-44 0z'/><path d='M8 32h48'/><path d='M20 32c2-6 6-6 8 0s6 6 8 0 6-6 8 0'/></svg>",
+      "instruction": "Die Bandnudeln (170 g) in reichlich Salzwasser al dente kochen und beiseitestellen. Die Cashewkerne (65 g) ohne Fett in einer (Wok-)Pfanne anrösten und beiseitestellen."
+    },
+    {
+      "title": "Tofu vorbereiten",
+      "time": 5,
+      "icon": "<svg viewBox='0 0 64 64'><rect x='14' y='20' width='36' height='24' rx='4'/><path d='M18 24h28M18 32h28M18 40h28'/></svg>",
+      "instruction": "Den Naturtofu (200 g, fest) trocken tupfen, in Würfel (ca. 1 x 1 cm) schneiden und mit 1.5 EL Speisestärke in einen Gefrierbeutel (3 Liter) geben und etwas salzen und pfeffern. Den Gefrierbeutel gut verschließen und den Tofu kräftig durchschütteln, sodass der Tofu überall mit Speisestärke bedeckt ist. Die Tofuwürfel auf ein Sieb mit nicht zu kleinen Löchern geben und so die überschüssige Speisestärke entfernen."
+    },
+    {
+      "title": "Tofu anbraten",
+      "time": 5,
+      "icon": "<svg viewBox='0 0 64 64'><path d='M18 20h28l-4 24a6 6 0 0 1-6 5H28a6 6 0 0 1-6-5z'/><path d='M32 8v14'/><circle cx='32' cy='6' r='2'/></svg>",
+      "instruction": "In der (Wok-)Pfanne etwas Sesamöl erhitzen und die Tofuwürfel darin scharf anbraten. Wenn sie knusprig sind, diese herausnehmen und auf Küchenpapier abtropfen lassen."
+    },
+    {
+      "title": "Gemüse vorbereiten",
+      "time": 5,
+      "icon": "<svg viewBox='0 0 64 64'><path d='M32 10c10 0 18 8 18 18s-8 18-18 18-18-8-18-18 8-18 18-18z'/><path d='M32 10v34M14 32h36'/></svg>",
+      "instruction": "Den Ingwer (1 Stück, ca. 2 x 2 cm) schälen und fein reiben. Die Zwiebel (1 mittelgroße) fein würfeln. Den Brokkoli (350 g, küchenfertig) in Röschen teilen und nicht holzige Stielteile würfeln."
+    },
+    {
+      "title": "Brokkoli kochen",
+      "time": 5,
+      "icon": "<svg viewBox='0 0 64 64'><circle cx='32' cy='40' r='12'/><path d='M32 20v20'/><path d='M20 28h24'/></svg>",
+      "instruction": "In der (Wok-)Pfanne wieder etwas Sesamöl erhitzen und die Zwiebel mit dem Ingwer darin kurz anbraten. Den Brokkoli hinzugeben und kurz mitbraten. Alles mit 8 EL Wasser und 4 EL Sojasauce ablöschen und abgedeckt ca. 2–3 Minuten köcheln lassen, bis der Brokkoli gar ist, aber noch gut Biss hat. Den Brokkoli mit dem Asia-Wok-Gewürz, etwas Pfeffer und Honig (oder Agavendicksaft) würzen."
+    },
+    {
+      "title": "Alles vermischen und servieren",
+      "time": 5,
+      "icon": "<svg viewBox='0 0 64 64'><path d='M10 32h44a22 12 0 0 1-44 0z'/><path d='M8 32h48'/><path d='M20 32c2-6 6-6 8 0s6 6 8 0 6-6 8 0'/></svg>",
+      "instruction": "Nudeln, Tofu und Cashewkerne hinzugeben und alles gut vermischen und nochmals warm werden lassen, aber nicht mehr kochen. Eventuell nochmals abschmecken und servieren."
+    }
+  ]
+}
