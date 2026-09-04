@@ -1,0 +1,50 @@
+{
+  "id": "quiche-spinat-feta-tomaten-pinienkerne",
+  "title": "Quiche mit Spinat, Feta, Tomaten und Pinienkernen",
+  "time": 75,
+  "servings": "Für 4 Portionen",
+  "steps": [
+    {
+      "title": "Quicheform vorbereiten",
+      "time": 5,
+      "icon": "<svg viewBox='0 0 64 64'><rect x='10' y='20' width='44' height='24' rx='4'/><path d='M14 20v24M50 20v24'/></svg>",
+      "instruction": "Eine Quicheform (Durchmesser 28 cm) mit Butter ausfetten, mit dem Blätterteig auslegen, diesen mit einer Gabel mehrmals einstechen und die Form bis zur Weiterverarbeitung in den Kühlschrank stellen."
+    },
+    {
+      "title": "Ofen vorheizen",
+      "time": 2,
+      "icon": "<svg viewBox='0 0 64 64'><rect x='14' y='20' width='36' height='24' rx='2'/><path d='M18 24h28M18 32h28M18 40h28'/></svg>",
+      "instruction": "Den Ofen auf 180 °C Ober-/Unterhitze vorheizen."
+    },
+    {
+      "title": "Pinienkerne anrösten",
+      "time": 5,
+      "icon": "<svg viewBox='0 0 64 64'><path d='M32 10c10 0 18 8 18 18s-8 18-18 18-18-8-18-18 8-18 18-18z'/><path d='M32 10v34M14 32h36'/></svg>",
+      "instruction": "In einer beschichteten Pfanne etwas Olivenöl erhitzen und zuerst die Pinienkerne (40 g) leicht anrösten und auf ein kleines Tellerchen legen."
+    },
+    {
+      "title": "Zwiebeln und Spinat dünsten",
+      "time": 10,
+      "icon": "<svg viewBox='0 0 64 64'><path d='M18 20h28l-4 24a6 6 0 0 1-6 5H28a6 6 0 0 1-6-5z'/><path d='M32 8v14'/><circle cx='32' cy='6' r='2'/></svg>",
+      "instruction": "Danach die Zwiebelwürfel (1 kleine Zwiebel) glasig dünsten. Den Spinat (450 g, TK) hinzufügen, die Knoblauchzehen (2 Stück) dazupressen und bei kleiner Hitze auftauen lassen. Möglichst wenig Wasser ziehen lassen. Mit Salz, Pfeffer und Muskatnuss kräftig abschmecken."
+    },
+    {
+      "title": "Feta-Eier-Mischung zubereiten",
+      "time": 5,
+      "icon": "<svg viewBox='0 0 64 64'><path d='M10 32h44a22 12 0 0 1-44 0z'/><path d='M8 32h48'/><path d='M20 32c2-6 6-6 8 0s6 6 8 0 6-6 8 0'/></svg>",
+      "instruction": "Den Feta (200 g) in kleine Würfel schneiden und mit den verquirlten Eiern (3 Stück), etwas Sahne, geriebenem Gouda und den Pinienkernen mischen. Nach Belieben würzen."
+    },
+    {
+      "title": "Quiche füllen",
+      "time": 3,
+      "icon": "<svg viewBox='0 0 64 64'><rect x='10' y='20' width='44' height='24' rx='4'/><path d='M14 20h36M14 28h36M14 36h36'/></svg>",
+      "instruction": "Den Spinat in die mit Blätterteig (275 g) ausgelegte Form geben und die Eier-Feta-Pinienkern-Mischung darüber schütten und gut glatt streichen. Am Schluss die halbierten Cocktailtomaten (10 Stück) in die Mischung drücken."
+    },
+    {
+      "title": "Quiche backen",
+      "time": 45,
+      "icon": "<svg viewBox='0 0 64 64'><path d='M14 40c0-10 8-18 18-18s18 8 18 18a4 4 0 0 1-4 4H18a4 4 0 0 1-4-4z'/><path d='M20 22c1-3-1-4 0-7M32 18c1-3-1-4 0-7M44 22c1-3-1-4 0-7'/></svg>",
+      "instruction": "Auf der mittleren Schiene ca. 45 Minuten backen, bis die Quiche goldbraun und fest ist."
+    }
+  ]
+}
