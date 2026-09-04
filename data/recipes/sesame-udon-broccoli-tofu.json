@@ -1,6 +1,6 @@
 {
   "id": "sesame-udon-broccoli-tofu",
-  "title": "One-Pan Sesam-Udon mit Brokkoli und Tofu",
+  "title": "Ein-Topf-Sesam-Udon mit Brokkoli und Tofu",
   "time": 38,
   "servings": "2 Portionen",
   "steps": [
@@ -32,7 +32,7 @@
       "title": "Udon und Sauce zugeben",
       "time": 6,
       "icon": "<svg viewBox='0 0 64 64'><path d='M10 32h44a22 12 0 0 1-44 0z'/><path d='M8 32h48'/><path d='M20 32c2-6 6-6 8 0s6 6 8 0 6-6 8 0'/></svg>",
-      "instruction": "400 g Udon-Nudeln und die Sauce dazugeben. Bei Bedarf einen Schuss Wasser angießen und alles 2 bis 3 Minuten unter Rühren glasieren, bis die Nudeln gut überzogen sind."
+      "instruction": "400 g Udon-Nudeln und die Sauce dazugeben. Bei Bedarf einen Schuss Wasser (ca. 60 ml) angießen und alles 2 bis 3 Minuten unter Rühren glasieren, bis die Nudeln gut überzogen sind."
     },
     {
       "title": "Tofu zurückgeben",
