@@ -4,14 +4,14 @@
   "time": 264,
   "servings": "1 Tarte, 28 cm",
   "ingredients": [
-    "Mehl für den Teig",
-    "Salz",
-    "Butter für den Teig",
-    "kaltes Wasser",
+    "250 g Mehl",
+    "1 Prise Salz",
+    "125 g Butter",
+    "60 ml kaltes Wasser",
     "1 kg Äpfel",
     "Saft von einer halben Zitrone",
     "100 g Zucker",
-    "geschmolzene Butter",
+    "50 g geschmolzene Butter",
     "1 Ei (Eigelb für Glasur, Eiweiß für Boden)"
   ],
   "steps": [
@@ -19,7 +19,7 @@
       "title": "Zutaten",
       "time": 0,
       "icon": "<svg viewBox='0 0 64 64'><path d='M12 26h40v18a8 8 0 0 1-8 8H20a8 8 0 0 1-8-8V26z'/><path d='M8 26h48'/><path d='M16 26v-6M48 26v-6'/><path d='M24 12c2 3-2 4 0 7M32 10c2 3-2 4 0 7M40 12c2 3-2 4 0 7'/></svg>",
-      "instruction": "Mehl für den Teig\nSalz\nButter für den Teig\nkaltes Wasser\n1 kg Äpfel\nSaft von einer halben Zitrone\n100 g Zucker\ngeschmolzene Butter\n1 Ei (Eigelb für Glasur, Eiweiß für Boden)"
+      "instruction": "250 g Mehl\n1 Prise Salz\n125 g Butter\n60 ml kaltes Wasser\n1 kg Äpfel\nSaft von einer halben Zitrone\n100 g Zucker\n50 g geschmolzene Butter\n1 Ei (Eigelb für Glasur, Eiweiß für Boden)"
     },
     {
       "title": "Teig zubereiten",
