@@ -88,7 +88,7 @@ function renderStep(){
   const step = steps[i];
   document.getElementById('stepIcon').innerHTML = step.icon;
   document.getElementById('stepTitle').textContent = step.title;
-  document.getElementById('stepText').textContent = step.instruction;
+  document.getElementById('stepText').innerHTML = step.instruction.replace(/\n/g, '<br>');
   const pill = document.getElementById('timePill');
   pill.hidden = false;
   pill.textContent = formatTime(step.time);
@@ -116,7 +116,7 @@ function renderListView(){
           <h3>${s.title}</h3>
           <span class='list-time'>${formatTime(s.time)}</span>
         </div>
-        <p>${s.instruction}</p>
+        <p>${s.instruction.replace(/\n/g, '<br>')}</p>
       </div>
     </li>`).join('');
 }
