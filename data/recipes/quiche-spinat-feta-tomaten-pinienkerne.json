@@ -20,6 +20,12 @@
   ],
   "steps": [
     {
+      "title": "Zutaten",
+      "time": 0,
+      "icon": "<svg viewBox='0 0 64 64'><path d='M12 26h40v18a8 8 0 0 1-8 8H20a8 8 0 0 1-8-8V26z'/><path d='M8 26h48'/><path d='M16 26v-6M48 26v-6'/><path d='M24 12c2 3-2 4 0 7M32 10c2 3-2 4 0 7M40 12c2 3-2 4 0 7'/></svg>",
+      "instruction": "275 g Blätterteig (TK)\n450 g Spinat (TK)\n1 kleine Zwiebel, gehackt\n40 g Pinienkerne\n10 Cocktailtomaten\netwas geriebener Gouda\n3 Eier\n2 Knoblauchzehen\n1 Prise Salz und Pfeffer\netwas Muskatnuss, frisch gerieben\n200 g Feta-Käse\nButter für die Form\netwas Olivenöl"
+    },
+    {
       "title": "Quicheform vorbereiten",
       "time": 5,
       "icon": "<svg viewBox='0 0 64 64'><rect x='10' y='20' width='44' height='24' rx='4'/><path d='M14 20v24M50 20v24'/></svg>",

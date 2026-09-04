@@ -20,6 +20,12 @@
   ],
   "steps": [
     {
+      "title": "Zutaten",
+      "time": 0,
+      "icon": "<svg viewBox='0 0 64 64'><path d='M12 26h40v18a8 8 0 0 1-8 8H20a8 8 0 0 1-8-8V26z'/><path d='M8 26h48'/><path d='M16 26v-6M48 26v-6'/><path d='M24 12c2 3-2 4 0 7M32 10c2 3-2 4 0 7M40 12c2 3-2 4 0 7'/></svg>",
+      "instruction": "250 g Veggie-Hack\nÖl zum Braten\n1 EL Tomatenmark\n0,5 rote Zwiebel, gehackt\n500 ml Wasser\n1 EL Gemüsebrühepulver\n300 g Protein-Nudeln\n200 g passierte Tomaten\n100 g Cherrytomaten\n100 g Gewürzgurken\n150 ml Cremefine 7%\n1 TL Senf\n50 g geriebener Cheddar"
+    },
+    {
       "title": "Veggie-Hack anbraten",
       "time": 5,
       "icon": "<svg viewBox='0 0 64 64'><path d='M18 20h28l-4 24a6 6 0 0 1-6 5H28a6 6 0 0 1-6-5z'/><path d='M32 8v14'/><circle cx='32' cy='6' r='2'/></svg>",

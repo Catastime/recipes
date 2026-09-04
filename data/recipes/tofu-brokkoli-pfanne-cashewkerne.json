@@ -20,6 +20,12 @@
   ],
   "steps": [
     {
+      "title": "Zutaten",
+      "time": 0,
+      "icon": "<svg viewBox='0 0 64 64'><path d='M12 26h40v18a8 8 0 0 1-8 8H20a8 8 0 0 1-8-8V26z'/><path d='M8 26h48'/><path d='M16 26v-6M48 26v-6'/><path d='M24 12c2 3-2 4 0 7M32 10c2 3-2 4 0 7M40 12c2 3-2 4 0 7'/></svg>",
+      "instruction": "200 g Naturtofu, fest\n350 g Brokkoli, küchenfertig gewogen\n170 g Bandnudeln\n1 mittelgroße Zwiebel\n1 Stück Ingwerwurzel (ca. 2 x 2 cm)\n65 g Cashewnüsse\n4 EL Sojasauce\n8 EL Wasser\n1,5 EL Speisestärke\netwas Öl (z. B. Sesamöl) zum Braten\nMeersalz und Pfeffer, frisch gemahlen\n1 TL Honig oder Agavendicksaft (vegan)\nAsia-Wok-Gewürz"
+    },
+    {
       "title": "Nudeln und Cashews vorbereiten",
       "time": 10,
       "icon": "<svg viewBox='0 0 64 64'><path d='M10 32h44a22 12 0 0 1-44 0z'/><path d='M8 32h48'/><path d='M20 32c2-6 6-6 8 0s6 6 8 0 6-6 8 0'/></svg>",
