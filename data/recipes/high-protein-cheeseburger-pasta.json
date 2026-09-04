@@ -1,0 +1,27 @@
+{
+  "id": "high-protein-cheeseburger-pasta",
+  "title": "High Protein One Pot Cheeseburger-Pasta",
+  "time": 25,
+  "servings": "Für 2 Portionen",
+  "steps": [
+    {
+      "title": "Veggie-Hack anbraten",
+      "time": 5,
+      "icon": "<svg viewBox='0 0 64 64'><path d='M18 20h28l-4 24a6 6 0 0 1-6 5H28a6 6 0 0 1-6-5z'/><path d='M32 8v14'/><circle cx='32' cy='6' r='2'/></svg>",
+      "instruction": "Das Veggie-Hack (250 g) in wenig Öl anbraten und würzen. Tomatenmark (1 EL) und die klein gehackte rote Zwiebel (0.5 Stück) dazugeben und kurz mit anbraten."
+    },
+    {
+      "title": "Nudeln und Zutaten köcheln",
+      "time": 15,
+      "icon": "<svg viewBox='0 0 64 64'><path d='M10 32h44a22 12 0 0 1-44 0z'/><path d='M8 32h48'/><path d='M20 32c2-6 6-6 8 0s6 6 8 0 6-6 8 0'/></svg>",
+      "instruction": "Mit 500 ml Wasser ablöschen. Gemüsebrühepulver (1 EL), Protein-Nudeln (300 g), passierte Tomaten (200 g), halbierte Cherrytomaten (100 g) und gewürfelte Gewürzgurken (100 g) dazugeben. Alles so lange leicht kochen lassen, bis die Nudeln weich sind."
+    },
+    {
+      "title": "Sahne und Käse einrühren",
+      "time": 5,
+      "icon": "<svg viewBox='0 0 64 64'><circle cx='32' cy='32' r='20'/><path d='M32 12v40M12 32h40'/></svg>",
+      "instruction": "Anschließend die Cremefine (150 ml) und den Senf (1 TL) unterrühren, mit dem geriebenen Cheddar (50 g) bestreuen und mit geschlossenem Deckel so lange ziehen lassen, bis der Käse geschmolzen ist."
+    }
+  ],
+  "notes": "Nährwerte pro Portion: 862 kcal | 61 g Protein | 124 g Kohlenhydrate | 17 g Fett"
+}
