@@ -1,50 +1,50 @@
 {
   "id": "pour-over-coffee",
-  "title": "Pour-Over Coffee",
+  "title": "Filterkaffee",
   "time": 9,
-  "servings": "1 cup",
+  "servings": "1 Tasse",
   "steps": [
     {
-      "title": "Boil the water",
+      "title": "Wasser erhitzen",
       "time": 3,
       "icon": "<svg viewBox='0 0 64 64'><path d='M14 28h28a5 5 0 0 1 5 5v13a7 7 0 0 1-7 7H21a7 7 0 0 1-7-7V28z'/><path d='M47 32l11-6'/><path d='M21 28v-5a5 5 0 0 1 5-5h6'/><circle cx='30' cy='14' r='2'/></svg>",
-      "instruction": "Heat 350 g of water to just off the boil, around 96 degrees C."
+      "instruction": "350 g Wasser auf etwa 96 °C erhitzen, kurz vor dem Kochen."
     },
     {
-      "title": "Rinse the filter",
+      "title": "Filter spülen",
       "time": 1,
       "icon": "<svg viewBox='0 0 64 64'><path d='M16 18h32l-12 24h-8z'/><path d='M24 50v4M32 50v6M40 50v4'/></svg>",
-      "instruction": "Set a paper filter in the dripper and rinse it with hot water, then discard the rinse water."
+      "instruction": "Ein Papierfilter in den Aufguss setzen, mit heißem Wasser spülen und das Spülwasser verwerfen."
     },
     {
-      "title": "Add the grounds",
+      "title": "Kaffee hinzufügen",
       "time": 1,
       "icon": "<svg viewBox='0 0 64 64'><path d='M12 30h40a20 14 0 0 1-40 0z'/><path d='M10 30h44'/><circle cx='26' cy='24' r='1.4'/><circle cx='32' cy='22' r='1.4'/><circle cx='38' cy='24' r='1.4'/></svg>",
-      "instruction": "Add 22 g of medium-fine ground coffee to the filter and shake gently to level the bed."
+      "instruction": "22 g mittelfein gemahlenen Kaffee in den Filter geben und leicht schütteln, um das Kaffeepulver zu verteilen."
     },
     {
-      "title": "Bloom",
+      "title": "Aufguss",
       "time": 1,
       "icon": "<svg viewBox='0 0 64 64'><path d='M18 20h28l-10 22h-8z'/><path d='M46 12c4 3 4 7 0 10'/><path d='M27 46c1 3 1 5 0 8M32 46c1 4 1 6 0 9M37 46c1 3 1 5 0 8'/></svg>",
-      "instruction": "Pour 50 g of water over the grounds in a spiral. Wait 30 seconds while it bubbles and releases gas."
+      "instruction": "50 g Wasser in einer Spirale über das Kaffeepulver gießen. 30 Sekunden warten, während es blubbert und Gas abgibt."
     },
     {
-      "title": "Pour in stages",
+      "title": "Wasser nachgießen",
       "time": 2,
       "icon": "<svg viewBox='0 0 64 64'><path d='M18 18h28l-10 22h-8z'/><path d='M32 4v10'/><path d='M25 8a10 6 0 1 0 14 0'/></svg>",
-      "instruction": "Pour the remaining water in two or three slow spirals, keeping the bed level, until you reach 350 g total."
+      "instruction": "Den restlichen Wasser in zwei oder drei langsamen Spiralen zugießen, bis insgesamt 350 g erreicht sind. Dabei das Kaffeepulver gleichmäßig halten."
     },
     {
-      "title": "Wait for drawdown",
+      "title": "Durchlaufen lassen",
       "time": 1,
       "icon": "<svg viewBox='0 0 64 64'><path d='M20 10h24M20 54h24'/><path d='M22 10c0 10 8 12 10 14 2-2 10-4 10-14'/><path d='M22 54c0-10 8-12 10-14 2 2 10 4 10 14'/></svg>",
-      "instruction": "Let the water fully drain through. Total brew time should land around 2:30 to 3:00."
+      "instruction": "Das Wasser vollständig durchlaufen lassen. Die gesamte Zubereitungszeit sollte etwa 2:30 bis 3:00 Minuten betragen."
     },
     {
-      "title": "Serve",
+      "title": "Servieren",
       "time": 0,
       "icon": "<svg viewBox='0 0 64 64'><path d='M14 26h28v16a10 10 0 0 1-10 10H24a10 10 0 0 1-10-10V26z'/><path d='M42 30h6a6 6 0 0 1 0 12h-6'/><path d='M24 12c2 3 -2 4 0 7M32 12c2 3-2 4 0 7'/></svg>",
-      "instruction": "Remove the dripper and pour. Best sipped within the next few minutes."
+      "instruction": "Den Aufguss entfernen und einschenken. Am besten innerhalb der nächsten Minuten genießen."
     }
   ]
 }
