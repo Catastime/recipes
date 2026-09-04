@@ -1,0 +1,38 @@
+{
+  "id": "tomaten-mozzarella-risotto",
+  "title": "Tomaten-Mozzarella-Risotto",
+  "time": 70,
+  "servings": "Für 2 Portionen",
+  "steps": [
+    {
+      "title": "Schalotten und Knoblauch anschwitzen",
+      "time": 5,
+      "icon": "<svg viewBox='0 0 64 64'><path d='M18 20h28l-4 24a6 6 0 0 1-6 5H28a6 6 0 0 1-6-5z'/><path d='M32 8v14'/><circle cx='32' cy='6' r='2'/></svg>",
+      "instruction": "Die Schalotten (2 Stück) und den Knoblauch (1 Zehe) schälen und fein würfeln. Etwas Olivenöl (1 EL) in einem Topf erhitzen und die Schalotten und den Knoblauch darin leicht anschwitzen."
+    },
+    {
+      "title": "Reis und Tomaten zugeben",
+      "time": 5,
+      "icon": "<svg viewBox='0 0 64 64'><path d='M10 32h44a22 12 0 0 1-44 0z'/><path d='M8 32h48'/><path d='M20 32c2-6 6-6 8 0s6 6 8 0 6-6 8 0'/></svg>",
+      "instruction": "Den Risottoreis (160 g) hinzugeben, umrühren und so lange dünsten, bis er leicht glasig wird. Anschließend die stückigen Tomaten (1 Dose) unterrühren."
+    },
+    {
+      "title": "Risotto kochen",
+      "time": 40,
+      "icon": "<svg viewBox='0 0 64 64'><circle cx='32' cy='40' r='12'/><path d='M32 20v20'/><path d='M20 28h24'/></svg>",
+      "instruction": "Das Risotto etappenweise mit der heißen Gemüsebrühe (400 ml) und dem Weißwein (100 ml) aufgießen. Jeweils so, dass es gerade bedeckt ist. Alles leicht köcheln lassen, regelmäßig umrühren und Flüssigkeit zugeben, sobald sie vom Reis aufgesogen ist."
+    },
+    {
+      "title": "Mozzarella und Tomaten einrühren",
+      "time": 10,
+      "icon": "<svg viewBox='0 0 64 64'><circle cx='32' cy='32' r='20'/><path d='M32 12v40M12 32h40'/></svg>",
+      "instruction": "Die Cherrytomaten (10 Stück) halbieren und den Mozzarella (1 Kugel) würfeln. Kurz vor Ende der Garzeit unter das Risotto rühren. Alles mit Pfeffer und eventuell ein wenig Salz abschmecken. Die Butter (1 EL) unterrühren."
+    },
+    {
+      "title": "Mit Basilikum servieren",
+      "time": 10,
+      "icon": "<svg viewBox='0 0 64 64'><path d='M32 10c10 0 18 8 18 18s-8 18-18 18-18-8-18-18 8-18 18-18z'/><path d='M32 10v34M14 32h36'/><path d='M20 20c2-6 6-6 8 0s6 6 8 0'/></svg>",
+      "instruction": "Das Basilikum (10 Blätter) fein schneiden. Das Risotto mit dem Basilikum servieren. Wer mag, gibt noch frische Tomaten hinzu."
+    }
+  ]
+}
