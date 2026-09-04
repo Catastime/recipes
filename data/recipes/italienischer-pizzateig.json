@@ -1,0 +1,27 @@
+{
+  "id": "italienischer-pizzateig",
+  "title": "Italienischer Pizzateig",
+  "time": 15,
+  "servings": "Für 6 Pizzen",
+  "steps": [
+    {
+      "title": "Teig zubereiten",
+      "time": 10,
+      "icon": "<svg viewBox='0 0 64 64'><circle cx='32' cy='32' r='20'/><path d='M32 12v40M12 32h40'/></svg>",
+      "instruction": "Im lauwarmen Wasser (500 ml) und dem Olivenöl (25 ml) die Frischhefe (40 g) mit Salz (20 g) und Zucker (1 Prise) auflösen. Dann das glatte Mehl (925 g) hinzufügen und einen glatten Teig kneten."
+    },
+    {
+      "title": "Teig gehen lassen",
+      "time": 5,
+      "icon": "<svg viewBox='0 0 64 64'><path d='M32 10c10 0 18 8 18 18s-8 18-18 18-18-8-18-18 8-18 18-18z'/><path d='M32 10v34M14 32h36'/></svg>",
+      "instruction": "Den Teig eine halbe Stunde an einem warmen Ort gehen lassen, zusammenkneten und abgedeckt im Kühlschrank 2 Tage ruhen lassen."
+    },
+    {
+      "title": "Pizza backen",
+      "time": 0,
+      "icon": "<svg viewBox='0 0 64 64'><circle cx='32' cy='32' r='24'/></svg>",
+      "instruction": "Nun kann man vom Teig eine frische Pizza herstellen. Der Teig reicht für 6 runde Pizzen. Am besten gelingt die Pizza, wenn man den Ofen auf der höchstmöglichen Temperatur vorheizt."
+    }
+  ],
+  "notes": "Anmerkungen: Belegen kann man die Pizzen nach Belieben, natürlich sollten die Tomatensauce und der Käse nicht fehlen. Die Pizzen können auf einem Blech sowie auf verschiedenen runden Pizzaformen gebacken werden. Die Menge der Hefe bleibt immer bei 40 g, auch wenn die Teigmenge reduziert wird."
+}
