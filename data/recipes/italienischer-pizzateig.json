@@ -3,6 +3,14 @@
   "title": "Italienischer Pizzateig",
   "time": 15,
   "servings": "Für 6 Pizzen",
+  "ingredients": [
+    "500 ml lauwarmes Wasser",
+    "25 ml Olivenöl",
+    "40 g Frischhefe",
+    "20 g Salz",
+    "1 Prise Zucker",
+    "925 g glattes Mehl"
+  ],
   "steps": [
     {
       "title": "Teig zubereiten",
