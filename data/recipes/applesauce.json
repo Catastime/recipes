@@ -5,6 +5,12 @@
   "servings": "ca. 6 Portionen",
   "steps": [
     {
+      "title": "Zutaten",
+      "time": 0,
+      "icon": "<svg viewBox='0 0 64 64'><path d='M12 26h40v18a8 8 0 0 1-8 8H20a8 8 0 0 1-8-8V26z'/><path d='M8 26h48'/><path d='M16 26v-6M48 26v-6'/><path d='M24 12c2 3-2 4 0 7M32 10c2 3-2 4 0 7M40 12c2 3-2 4 0 7'/></svg>",
+      "instruction": "1 kg Äpfel, 1 EL Zucker, 120 ml Apfelsaft, 1/2 TL Zimt, 1 EL Zitronensaft, Zucker nach Geschmack"
+    },
+    {
       "title": "Äpfel vorbereiten",
       "time": 10,
       "icon": "<svg viewBox='0 0 64 64'><path d='M32 24c-10 0-16 8-16 18s8 16 16 16 16-6 16-16-6-18-16-18z'/><path d='M32 24c0-6 4-8 8-8'/><path d='M46 14c3 2 3 5 0 7'/></svg>",
@@ -34,5 +40,13 @@
       "icon": "<svg viewBox='0 0 64 64'><path d='M20 10h24M20 54h24'/><path d='M22 10c0 10 8 12 10 14 2-2 10-4 10-14'/><path d='M22 54c0-10 8-12 10-14 2 2 10 4 10 14'/></svg>",
       "instruction": "Mit einer halben Teelöffel Zimt und einem Esslöffel Zitronensaft abschmecken, bei Bedarf mit etwas Zucker nachsüßen. 30 Minuten abkühlen lassen."
     }
+  ],
+  "ingredients": [
+    "1 kg Äpfel",
+    "1 EL Zucker",
+    "120 ml Apfelsaft",
+    "1/2 TL Zimt",
+    "1 EL Zitronensaft",
+    "Zucker nach Geschmack"
   ]
 }

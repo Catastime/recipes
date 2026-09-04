@@ -5,6 +5,12 @@
   "servings": "2 Portionen",
   "steps": [
     {
+      "title": "Zutaten",
+      "time": 0,
+      "icon": "<svg viewBox='0 0 64 64'><path d='M12 26h40v18a8 8 0 0 1-8 8H20a8 8 0 0 1-8-8V26z'/><path d='M8 26h48'/><path d='M16 26v-6M48 26v-6'/><path d='M24 12c2 3-2 4 0 7M32 10c2 3-2 4 0 7M40 12c2 3-2 4 0 7'/></svg>",
+      "instruction": "250 g fester Tofu, 2 EL Öl, 3 EL Sojasauce, 2 EL Ahornsirup, 1 EL Reisweinessig, 1 TL Sesamöl, 1 TL Chiliöl oder 1 gehackte Chili, 1 gehackte Knoblauchzehe, 1 TL geriebener Ingwer, 250 g Brokkoliröschen, 400 g Udon-Nudeln, 60 ml Wasser, 1 EL Sesam, 2 in Ringe geschnittene Frühlingszwiebeln"
+    },
+    {
       "title": "Tofu pressen und würfeln",
       "time": 10,
       "icon": "<svg viewBox='0 0 64 64'><path d='M12 30h40a20 14 0 0 1-40 0z'/><path d='M10 30h44'/></svg>",
@@ -46,5 +52,21 @@
       "icon": "<svg viewBox='0 0 64 64'><circle cx='32' cy='36' r='20'/><path d='M32 16l14 20-14 8-14-8z'/></svg>",
       "instruction": "Direkt aus dem Topf oder in Schalen servieren, nach Belieben mit extra Chiliöl beträufeln."
     }
+  ],
+  "ingredients": [
+    "250 g fester Tofu",
+    "2 EL Öl",
+    "3 EL Sojasauce",
+    "2 EL Ahornsirup",
+    "1 EL Reisweinessig",
+    "1 TL Sesamöl",
+    "1 TL Chiliöl oder 1 gehackte Chili",
+    "1 gehackte Knoblauchzehe",
+    "1 TL geriebener Ingwer",
+    "250 g Brokkoliröschen",
+    "400 g Udon-Nudeln",
+    "60 ml Wasser",
+    "1 EL Sesam",
+    "2 in Ringe geschnittene Frühlingszwiebeln"
   ]
 }
