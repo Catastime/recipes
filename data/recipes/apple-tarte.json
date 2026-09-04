@@ -2,67 +2,67 @@
   "id": "apple-tarte",
   "title": "Apfeltarte",
   "time": 264,
-  "servings": "1 tarte, 28 cm",
+  "servings": "1 Tarte, 28 cm",
   "steps": [
     {
-      "title": "Make the dough",
+      "title": "Teig zubereiten",
       "time": 130,
       "icon": "<svg viewBox='0 0 64 64'><rect x='14' y='16' width='36' height='8' rx='4'/><rect x='6' y='18' width='8' height='4' rx='2'/><rect x='50' y='18' width='8' height='4' rx='2'/><ellipse cx='32' cy='42' rx='18' ry='10'/></svg>",
-      "instruction": "Sift the flour into a bowl and mix with the salt. Crumble in the butter, then work in cold water a little at a time and knead quickly into a smooth dough that isn't sticky. Shape into a ball and chill for at least 2 hours."
+      "instruction": "Mehl in eine Schüssel sieben und mit Salz vermischen. Butter unterkneten, dann nach und nach kaltes Wasser hinzufügen und schnell zu einem glatten, nicht klebrigen Teig verkneten. Zu einem Ball formen und mindestens 2 Stunden kalt stellen."
     },
     {
-      "title": "Macerate the apples",
+      "title": "Äpfel marinieren",
       "time": 65,
       "icon": "<svg viewBox='0 0 64 64'><path d='M32 24c-10 0-16 8-16 18s8 16 16 16 16-6 16-16-6-18-16-18z'/><path d='M32 24c0-6 4-8 8-8'/><path d='M46 14c3 2 3 5 0 7'/></svg>",
-      "instruction": "Peel and quarter the apples, remove the cores, and cut into wedges about 1/2 cm wide. Toss with the juice of half a lemon and 50 g of the sugar, then let sit for an hour."
+      "instruction": "Äpfel schälen, vierteln und das Kerngehäuse entfernen. In ca. 0,5 cm breite Spalten schneiden. Mit dem Saft von einer halben Zitrone und 50 g Zucker vermengen und eine Stunde ziehen lassen."
     },
     {
-      "title": "Drain and make the glaze",
+      "title": "Abtropfen und Glasur herstellen",
       "time": 5,
       "icon": "<svg viewBox='0 0 64 64'><ellipse cx='32' cy='26' rx='20' ry='8'/><path d='M12 26v6a20 6 0 0 0 40 0v-6'/><path d='M20 40l-4 14M32 40v14M44 40l4 14'/></svg>",
-      "instruction": "Drain the apples in a sieve, catching the juice. Stir the juice together with the egg yolk to make a glaze for later."
+      "instruction": "Die Äpfel in einem Sieb abtropfen lassen und den Saft auffangen. Den Saft mit dem Eigelb zu einer Glasur für später verrühren."
     },
     {
-      "title": "Preheat and prep the pan",
+      "title": "Ofen vorheizen und Form vorbereiten",
       "time": 15,
       "icon": "<svg viewBox='0 0 64 64'><rect x='10' y='10' width='44' height='44' rx='3'/><rect x='18' y='20' width='28' height='24' rx='2'/></svg>",
-      "instruction": "Preheat the oven to 250 degrees C, top and bottom heat. Butter a 28 cm tart pan."
+      "instruction": "Ofen auf 250 °C Ober-/Unterhitze vorheizen. Eine 28-cm-Tarteform einfetten."
     },
     {
-      "title": "Line the pan",
+      "title": "Form auskleiden",
       "time": 10,
       "icon": "<svg viewBox='0 0 64 64'><circle cx='32' cy='38' r='18'/><rect x='14' y='12' width='36' height='7' rx='3.5'/><rect x='6' y='13.5' width='8' height='4' rx='2'/><rect x='50' y='13.5' width='8' height='4' rx='2'/></svg>",
-      "instruction": "Roll the dough out thin on a floured surface, line the pan, and press it up the sides. Brush the base with the egg white."
+      "instruction": "Den Teig auf einer bemehlten Fläche dünn ausrollen, die Form damit auslegen und an den Rändern hochdrücken. Den Boden mit Eiweiß bestreichen."
     },
     {
-      "title": "Arrange the apples",
+      "title": "Äpfel anordnen",
       "time": 8,
       "icon": "<svg viewBox='0 0 64 64'><circle cx='32' cy='32' r='22'/><circle cx='32' cy='32' r='14'/><circle cx='32' cy='32' r='6'/></svg>",
-      "instruction": "Arrange the apple wedges in circles over the dough, sprinkle with the remaining 50 g of sugar, and drizzle with the melted butter."
+      "instruction": "Die Apfelspalten in Kreisen über den Teig legen, mit den restlichen 50 g Zucker bestreuen und mit geschmolzener Butter beträufeln."
     },
     {
-      "title": "Bake on the oven floor",
+      "title": "Auf dem Ofenboden backen",
       "time": 8,
       "icon": "<svg viewBox='0 0 64 64'><rect x='10' y='10' width='44' height='44' rx='3'/><path d='M10 40h44'/><path d='M28 48c0-3-2-4 0-7M36 48c0-3-2-4 0-7'/></svg>",
-      "instruction": "Place the tart on the floor of the oven for 5 to 10 minutes, until the edge starts to brown."
+      "instruction": "Die Tarte auf den Ofenboden stellen und 5 bis 10 Minuten backen, bis der Rand zu bräunen beginnt."
     },
     {
-      "title": "Move to the middle and glaze",
+      "title": "Auf mittlere Schiene schieben und glasieren",
       "time": 10,
       "icon": "<svg viewBox='0 0 64 64'><rect x='10' y='10' width='44' height='44' rx='3'/><path d='M10 32h44'/><path d='M44 18l6-6M48 18l4-4'/></svg>",
-      "instruction": "Move the tart to the middle rack and bake for another 10 minutes. Brush with the egg yolk and apple juice glaze."
+      "instruction": "Die Tarte auf die mittlere Schiene schieben und weitere 10 Minuten backen. Mit der Eigelb- und Apfelsaft-Glasur bestreichen."
     },
     {
-      "title": "Finish baking",
+      "title": "Fertig backen",
       "time": 13,
       "icon": "<svg viewBox='0 0 64 64'><circle cx='32' cy='34' r='20'/><path d='M20 18c1-3-1-4 0-7M32 16c1-3-1-4 0-7M44 18c1-3-1-4 0-7'/></svg>",
-      "instruction": "Bake for another 10 to 15 minutes, until the crust turns a deep golden brown."
+      "instruction": "Weitere 10 bis 15 Minuten backen, bis der Teig tief goldbraun ist."
     },
     {
-      "title": "Serve",
+      "title": "Servieren",
       "time": 0,
       "icon": "<svg viewBox='0 0 64 64'><circle cx='32' cy='36' r='20'/><path d='M32 16l14 20-14 8-14-8z'/></svg>",
-      "instruction": "Serve warm or fully cooled, both work well."
+      "instruction": "Warm oder vollständig abgekühlt servieren, beides schmeckt hervorragend."
     }
   ]
 }
