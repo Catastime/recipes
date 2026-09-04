@@ -3,6 +3,21 @@
   "title": "Tofu-Brokkoli-Pfanne mit Cashewkernen",
   "time": 30,
   "servings": "Für 2 Portionen",
+  "ingredients": [
+    "200 g Naturtofu, fest",
+    "350 g Brokkoli, küchenfertig gewogen",
+    "170 g Bandnudeln",
+    "1 mittelgroße Zwiebel",
+    "1 Stück Ingwerwurzel (ca. 2 x 2 cm)",
+    "65 g Cashewnüsse",
+    "4 EL Sojasauce",
+    "8 EL Wasser",
+    "1,5 EL Speisestärke",
+    "etwas Öl (z. B. Sesamöl) zum Braten",
+    "Meersalz und Pfeffer, frisch gemahlen",
+    "1 TL Honig oder Agavendicksaft (vegan)",
+    "Asia-Wok-Gewürz"
+  ],
   "steps": [
     {
       "title": "Nudeln und Cashews vorbereiten",
@@ -14,7 +29,7 @@
       "title": "Tofu vorbereiten",
       "time": 5,
       "icon": "<svg viewBox='0 0 64 64'><rect x='14' y='20' width='36' height='24' rx='4'/><path d='M18 24h28M18 32h28M18 40h28'/></svg>",
-      "instruction": "Den Naturtofu (200 g, fest) trocken tupfen, in Würfel (ca. 1 x 1 cm) schneiden und mit 1.5 EL Speisestärke in einen Gefrierbeutel (3 Liter) geben und etwas salzen und pfeffern. Den Gefrierbeutel gut verschließen und den Tofu kräftig durchschütteln, sodass der Tofu überall mit Speisestärke bedeckt ist. Die Tofuwürfel auf ein Sieb mit nicht zu kleinen Löchern geben und so die überschüssige Speisestärke entfernen."
+      "instruction": "Den Naturtofu (200 g, fest) trocken tupfen, in Würfel (ca. 1 x 1 cm) schneiden und mit 1,5 EL Speisestärke in einen Gefrierbeutel (3 Liter) geben und etwas salzen und pfeffern. Den Gefrierbeutel gut verschließen und den Tofu kräftig durchschütteln, sodass der Tofu überall mit Speisestärke bedeckt ist. Die Tofuwürfel auf ein Sieb mit nicht zu kleinen Löchern geben und so die überschüssige Speisestärke entfernen."
     },
     {
       "title": "Tofu anbraten",
