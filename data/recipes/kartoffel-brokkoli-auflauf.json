@@ -1,0 +1,32 @@
+{
+  "id": "kartoffel-brokkoli-auflauf",
+  "title": "Kartoffel-Brokkoli-Auflauf",
+  "time": 55,
+  "servings": "Für 4 Portionen",
+  "steps": [
+    {
+      "title": "Wasser kochen und Gemüse vorbereiten",
+      "time": 10,
+      "icon": "<svg viewBox='0 0 64 64'><path d='M18 20h28l-4 24a6 6 0 0 1-6 5H28a6 6 0 0 1-6-5z'/><path d='M32 8v14'/><circle cx='32' cy='6' r='2'/></svg>",
+      "instruction": "Zuerst 1 Liter Wasser zum Kochen bringen und die Gemüsebrühe (nach Bedarf) dazugeben. Währenddessen die Kartoffeln (6 mittelgroße) schälen und den Brokkoli (2 Köpfe) putzen und in Röschen schneiden."
+    },
+    {
+      "title": "Kartoffeln und Brokkoli kochen",
+      "time": 15,
+      "icon": "<svg viewBox='0 0 64 64'><circle cx='32' cy='40' r='12'/><path d='M32 20v20'/><path d='M20 28h24'/></svg>",
+      "instruction": "Die Kartoffeln in Würfel schneiden und in der Brühe gar kochen. Die Kartoffeln mit einem Schaumlöffel aus der Brühe nehmen, dann die Brokkoliröschen in der Brühe kochen. Beides in eine große Auflaufform geben."
+    },
+    {
+      "title": "Sauce zubereiten",
+      "time": 10,
+      "icon": "<svg viewBox='0 0 64 64'><path d='M10 32h44a22 12 0 0 1-44 0z'/><path d='M8 32h48'/><path d='M20 32c2-6 6-6 8 0s6 6 8 0 6-6 8 0'/></svg>",
+      "instruction": "Für die Soße eine Zwiebel (1 Stück) würfeln und in der Margarine (2 EL) glasig braten. Dann das Mehl (2 EL) darüber streuen und eine Weile bräunen lassen. Dann 500 ml von der Gemüsebrühe hinzugeben und kurz andicken lassen. Anschließend die Sahne (ca. 200 ml) zufügen und die Soße mit Muskat, Paprikapulver, Salz, Pfeffer und Chili gut würzen. Die Soße in die Auflaufform geben, den geriebenen Käse (150–200 g) darüber streuen."
+    },
+    {
+      "title": "Auflauf backen",
+      "time": 20,
+      "icon": "<svg viewBox='0 0 64 64'><path d='M14 40c0-10 8-18 18-18s18 8 18 18a4 4 0 0 1-4 4H18a4 4 0 0 1-4-4z'/><path d='M20 22c1-3-1-4 0-7M32 18c1-3-1-4 0-7M44 22c1-3-1-4 0-7'/></svg>",
+      "instruction": "Bei 180 °C Ober-/Unterhitze ca. 20–25 Minuten in den heißen Backofen stellen, bis der Käse schön braun ist."
+    }
+  ]
+}
