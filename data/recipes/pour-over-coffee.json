@@ -3,6 +3,11 @@
   "title": "Filterkaffee",
   "time": 9,
   "servings": "1 Tasse",
+  "ingredients": [
+    "350 g Wasser",
+    "22 g mittelfein gemahlener Kaffee",
+    "1 Papierfilter"
+  ],
   "steps": [
     {
       "title": "Wasser erhitzen",
