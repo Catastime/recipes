@@ -5,6 +5,12 @@
   "servings": "4 Portionen",
   "steps": [
     {
+      "title": "Zutaten",
+      "time": 0,
+      "icon": "<svg viewBox='0 0 64 64'><path d='M12 26h40v18a8 8 0 0 1-8 8H20a8 8 0 0 1-8-8V26z'/><path d='M8 26h48'/><path d='M16 26v-6M48 26v-6'/><path d='M24 12c2 3-2 4 0 7M32 10c2 3-2 4 0 7M40 12c2 3-2 4 0 7'/></svg>",
+      "instruction": "1 Zwiebel, 1 Knoblauchzehe, 1 EL Butter, 1,5 EL Mehl, 3 EL Tomatenmark, 250 ml Milch, 100 ml Sahne, 100 ml Wasser, 1 TL Paprikapulver, Salz, Pfeffer, 500 g Gnocchi, 200 g Blattspinat, 100 g Mini-Tomaten, 150 g geriebener Käse"
+    },
+    {
       "title": "Soße anrösten",
       "time": 5,
       "icon": "<svg viewBox='0 0 64 64'><ellipse cx='28' cy='34' rx='18' ry='8'/><path d='M46 30h12'/><path d='M20 14c2 4-2 6 0 10M28 12c2 4-2 6 0 10'/></svg>",
@@ -28,5 +34,22 @@
       "icon": "<svg viewBox='0 0 64 64'><rect x='10' y='12' width='44' height='40' rx='3'/><path d='M10 24h44'/><path d='M22 38h20l-2 10a4 4 0 0 1-4 4h-8a4 4 0 0 1-4-4z'/></svg>",
       "instruction": "Bei 220 Grad C Ober-/Unterhitze 30 Minuten backen."
     }
+  ],
+  "ingredients": [
+    "1 Zwiebel",
+    "1 Knoblauchzehe",
+    "1 EL Butter",
+    "1,5 EL Mehl",
+    "3 EL Tomatenmark",
+    "250 ml Milch",
+    "100 ml Sahne",
+    "100 ml Wasser",
+    "1 TL Paprikapulver",
+    "Salz",
+    "Pfeffer",
+    "500 g Gnocchi",
+    "200 g Blattspinat",
+    "100 g Mini-Tomaten",
+    "150 g geriebener Käse"
   ]
 }
