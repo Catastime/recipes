@@ -3,12 +3,27 @@
   "title": "Proteinreiche Ein-Topf-Cheeseburger-Pasta",
   "time": 25,
   "servings": "Für 2 Portionen",
+  "ingredients": [
+    "250 g Veggie-Hack",
+    "Öl zum Braten",
+    "1 EL Tomatenmark",
+    "0,5 rote Zwiebel, gehackt",
+    "500 ml Wasser",
+    "1 EL Gemüsebrühepulver",
+    "300 g Protein-Nudeln",
+    "200 g passierte Tomaten",
+    "100 g Cherrytomaten",
+    "100 g Gewürzgurken",
+    "150 ml Cremefine 7%",
+    "1 TL Senf",
+    "50 g geriebener Cheddar"
+  ],
   "steps": [
     {
       "title": "Veggie-Hack anbraten",
       "time": 5,
       "icon": "<svg viewBox='0 0 64 64'><path d='M18 20h28l-4 24a6 6 0 0 1-6 5H28a6 6 0 0 1-6-5z'/><path d='M32 8v14'/><circle cx='32' cy='6' r='2'/></svg>",
-      "instruction": "Das Veggie-Hack (250 g) in wenig Öl anbraten und würzen. Tomatenmark (1 EL) und die klein gehackte rote Zwiebel (0.5 Stück) dazugeben und kurz mit anbraten."
+      "instruction": "Das Veggie-Hack (250 g) in wenig Öl anbraten und würzen. Tomatenmark (1 EL) und die klein gehackte rote Zwiebel (0,5 Stück) dazugeben und kurz mit anbraten."
     },
     {
       "title": "Nudeln und Zutaten köcheln",
