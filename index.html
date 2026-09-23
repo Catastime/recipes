@@ -47,6 +47,10 @@
     <div class='step' id='stepView'>
       <div class='step-icon' id='stepIcon'></div>
       <h2 class='step-title' id='stepTitle'></h2>
+      <div class='mult-box' id='multStage' hidden>
+        <span class='mult-x' aria-hidden='true'>×</span>
+        <input class='mult-input' id='multStageInput' type='text' inputmode='decimal' value='1' maxlength='4' aria-label='Zutaten multiplizieren'>
+      </div>
       <p class='step-text' id='stepText'></p>
     </div>
     <footer class='progress'>
@@ -56,6 +60,10 @@
   </section>
 
   <section id='listView' hidden>
+    <div class='mult-box' id='multList'>
+      <span class='mult-x' aria-hidden='true'>×</span>
+      <input class='mult-input' id='multListInput' type='text' inputmode='decimal' value='1' maxlength='4' aria-label='Zutaten multiplizieren'>
+    </div>
     <ol id='listItems' class='list-items'></ol>
   </section>
 </main>

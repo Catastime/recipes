@@ -1,4 +1,4 @@
-const state = { manifest: [], cache: {}, recipe: null, stepIndex: 0, viewMode: 'stage' };
+const state = { manifest: [], cache: {}, recipe: null, stepIndex: 0, viewMode: 'stage', multiplier: 1 };
 
 function formatTime(min){
   if(!min) return 'serve';
@@ -6,6 +6,72 @@ function formatTime(min){
   const h = Math.floor(min/60);
   const m = min % 60;
   return m ? `${h} h ${m} min` : `${h} h`;
+}
+
+const NUM = '\\d+(?:[.,]\\d+)?';
+const AMOUNT_UNITS = ['kg','mg','ml','cl','g','l','EL','TL','Prise','Prisen','Liter','Litern','Tasse','Tassen','Glas','Gläser','Gläsern','Dose','Dosen','Packung','Packungen','Bund','Bünde','Stange','Stangen','Zweig','Zweige','Zehe','Zehen','Zwiebel','Zwiebeln','Ei','Eier','Scheibe','Scheiben','Blatt','Blätter','Blättern','Kugel','Kugeln','Stück','Stücke','Kopf','Köpfe','Schalotte','Schalotten','Tomate','Tomaten','Apfel','Äpfel'];
+const COMPOUND_UNITS = '[A-Za-zÄÖÜäöüß-]*(?:zehen?|zwiebeln?|scheiben?|blättern?|blatt|kugeln?|stücken?|stück|köpfe?|kopf|eier?|ei|schalotten?|tomaten|tomate[n]?|äpfeln?|apfel)';
+const amountRe = new RegExp('(' + NUM + ')((?:\\s*(?:bis|[-–])\\s*)(' + NUM + '))?(\\s*)(' + AMOUNT_UNITS.join('|') + '|' + COMPOUND_UNITS + ')(?![A-Za-zÄÖÜäöüß])', 'g');
+const leadRe = /^(ca\.\s*)?(\d+\/\d+|\d+(?:[.,]\d+)?(?:\s*(?:bis|[-–])\s*\d+(?:[.,]\d+)?)?)(\s?)(.*)$/;
+const tokenRe = new RegExp('\\d+/\\d+|' + NUM, 'g');
+
+function formatAmount(n){
+  const r = Math.round(n * 100) / 100;
+  return (Number.isInteger(r) ? String(r) : String(parseFloat(r.toFixed(2)))).replace('.', ',');
+}
+
+function scaleToken(tok, m){
+  if(tok.includes('/')){
+    const [a,b] = tok.split('/').map(Number);
+    return formatAmount((a / b) * m);
+  }
+  return formatAmount(parseFloat(tok.replace(',', '.')) * m);
+}
+
+function scaleInstruction(text, m){
+  if(m === 1) return text;
+  return text.replace(amountRe, (all, n1, range, n2, sp, unit) =>
+    scaleToken(n1, m) + (range ? range.replace(new RegExp(NUM), tok => scaleToken(tok, m)) : '') + sp + unit
+  );
+}
+
+function scaleIngredientLine(line, m){
+  if(m === 1) return line;
+  const lead = line.match(leadRe);
+  if(!lead) return scaleInstruction(line, m);
+  return (lead[1] || '') + lead[2].replace(tokenRe, tok => scaleToken(tok, m)) + lead[3] + scaleInstruction(lead[4], m);
+}
+
+function scaledStepText(step){
+  const m = state.multiplier;
+  if(m === 1) return step.instruction;
+  if(step.title === 'Zutaten'){
+    return step.instruction.split('\n')
+      .map(l => l.replace(/^(\s*-\s*)(.*)$/, (a, p, rest) => p + scaleIngredientLine(rest, m)))
+      .join('\n');
+  }
+  return scaleInstruction(step.instruction, m);
+}
+
+function readMultiplier(str){
+  const t = String(str).trim().replace(',', '.');
+  if(!/^\d{1,2}(\.\d)?$/.test(t)) return null;
+  const n = parseFloat(t);
+  if(!n) return null;
+  return Math.min(n, 10);
+}
+
+function syncMultiplierInputs(skip){
+  const val = formatAmount(state.multiplier);
+  for(const el of [document.getElementById('multStageInput'), document.getElementById('multListInput')]){
+    if(el !== skip) el.value = val;
+  }
+}
+
+function applyMultiplier(n, skip){
+  state.multiplier = n;
+  syncMultiplierInputs(skip);
+  if(state.viewMode === 'stage') renderStep(); else renderListView();
 }
 
 async function loadManifest(){
@@ -42,12 +108,16 @@ async function loadRecipe(id){
   state.recipe = state.cache[id];
   state.stepIndex = 0;
   state.viewMode = 'stage';
+  state.multiplier = 1;
+  syncMultiplierInputs();
   showRecipe();
 }
 
 function goHome(){
   state.recipe = null;
   state.viewMode = 'stage';
+  state.multiplier = 1;
+  syncMultiplierInputs();
   document.getElementById('home').hidden = false;
   document.getElementById('stage').hidden = true;
   document.getElementById('listView').hidden = true;
@@ -88,7 +158,8 @@ function renderStep(){
   const step = steps[i];
   document.getElementById('stepIcon').innerHTML = step.icon;
   document.getElementById('stepTitle').textContent = step.title;
-  document.getElementById('stepText').innerHTML = step.instruction.replace(/\n/g, '<br>');
+  document.getElementById('stepText').innerHTML = scaledStepText(step).replace(/\n/g, '<br>');
+  document.getElementById('multStage').hidden = step.title !== 'Zutaten';
   const pill = document.getElementById('timePill');
   pill.hidden = false;
   pill.textContent = formatTime(step.time);
@@ -116,7 +187,7 @@ function renderListView(){
           <h3>${s.title}</h3>
           <span class='list-time'>${formatTime(s.time)}</span>
         </div>
-        <p>${s.instruction.replace(/\n/g, '<br>')}</p>
+        <p>${scaledStepText(s).replace(/\n/g, '<br>')}</p>
       </div>
     </li>`).join('');
 }
@@ -162,10 +233,26 @@ document.getElementById('viewToggle').addEventListener('click', ()=>{
   setViewMode(state.viewMode === 'stage' ? 'list' : 'stage');
 });
 
+for(const el of [document.getElementById('multStageInput'), document.getElementById('multListInput')]){
+  el.addEventListener('input', ()=>{
+    const n = readMultiplier(el.value);
+    if(n !== null) applyMultiplier(n, el);
+  });
+  el.addEventListener('blur', ()=>{
+    const n = readMultiplier(el.value);
+    if(n === null) el.value = formatAmount(state.multiplier);
+    else applyMultiplier(n, null);
+  });
+  el.addEventListener('keydown', e=>{
+    if(e.key === 'Enter'){ e.preventDefault(); el.blur(); }
+  });
+}
+
 document.getElementById('zoneLeft').addEventListener('click', prevStep);
 document.getElementById('zoneRight').addEventListener('click', nextStep);
 
 window.addEventListener('keydown', e=>{
+  if(e.target.classList && e.target.classList.contains('mult-input')) return;
   if(state.viewMode === 'stage'){
     if(e.key==='ArrowRight') nextStep();
     if(e.key==='ArrowLeft') prevStep();
